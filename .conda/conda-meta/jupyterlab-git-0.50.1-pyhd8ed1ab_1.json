@@ -1,0 +1,834 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [
+    "jupyterlab >=4,<5"
+  ],
+  "depends": [
+    "jupyter_server >=2.0,<3.0",
+    "nbdime >=4.0,<5.0",
+    "nbformat",
+    "packaging",
+    "pexpect",
+    "python >=3.6,<4.0",
+    "traitlets >=5.0,<6.0"
+  ],
+  "extracted_package_dir": "/home/domo/.conda/pkgs/jupyterlab-git-0.50.1-pyhd8ed1ab_1",
+  "files": [
+    "etc/jupyter/jupyter_server_config.d/jupyterlab_git.json",
+    "bin/.jupyterlab-git-post-link.sh",
+    "bin/.jupyterlab-git-pre-unlink.sh",
+    "share/jupyter/labextensions/@jupyterlab/git/install.json",
+    "share/jupyter/labextensions/@jupyterlab/git/package.json",
+    "share/jupyter/labextensions/@jupyterlab/git/schemas/@jupyterlab/git/package.json.orig",
+    "share/jupyter/labextensions/@jupyterlab/git/schemas/@jupyterlab/git/plugin.json",
+    "share/jupyter/labextensions/@jupyterlab/git/static/10.6b01aeeda69547263561.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/122.5ba163cf07ee5ab4b45f.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/171.3886234f49e694ae95b7.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/242.ca107b156a41aa38af3c.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/266.45b6171124f7c87df871.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/27.96eaab30453ba73d0911.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/282.d7c76becd5c65086b75b.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/308.7fdaf50366be965d87a8.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/338.e6e982cc684fe40f637d.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/338.e6e982cc684fe40f637d.js.LICENSE.txt",
+    "share/jupyter/labextensions/@jupyterlab/git/static/378.ba25417c17d90ae2da47.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/392.c5c9794b5ab642294edf.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/405.a3174e55e00ed9436e42.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/612.284a1c84e063a1f3247e.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/638.7c1aca2e676069b2614f.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/66.43ea78698c0b68dd185e.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/66.43ea78698c0b68dd185e.js.LICENSE.txt",
+    "share/jupyter/labextensions/@jupyterlab/git/static/725.f68c9b248131f7920e24.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/728.552705d5c0c271b81970.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/747.30dabbfed4f4994e24bc.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/789.270919a0cb6c3ffb4b8c.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/846.a9161577f8b977644eaf.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/881.42c4dde967f7d347bc86.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/881.42c4dde967f7d347bc86.js.LICENSE.txt",
+    "share/jupyter/labextensions/@jupyterlab/git/static/946.0b568842df5b992322e5.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/967.2aaf8ca7c37a92081b62.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/967.2aaf8ca7c37a92081b62.js.LICENSE.txt",
+    "share/jupyter/labextensions/@jupyterlab/git/static/remoteEntry.ccc243fc663fff0c3508.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/style.js",
+    "share/jupyter/labextensions/@jupyterlab/git/static/third-party-licenses.json",
+    "lib/python3.12/site-packages/jupyterlab_git-0.50.1.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/jupyterlab_git-0.50.1.dist-info/METADATA",
+    "lib/python3.12/site-packages/jupyterlab_git-0.50.1.dist-info/RECORD",
+    "lib/python3.12/site-packages/jupyterlab_git-0.50.1.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/jupyterlab_git-0.50.1.dist-info/WHEEL",
+    "lib/python3.12/site-packages/jupyterlab_git-0.50.1.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/jupyterlab_git-0.50.1.dist-info/licenses/LICENSE",
+    "lib/python3.12/site-packages/jupyterlab_git/__init__.py",
+    "lib/python3.12/site-packages/jupyterlab_git/_version.py",
+    "lib/python3.12/site-packages/jupyterlab_git/git.py",
+    "lib/python3.12/site-packages/jupyterlab_git/handlers.py",
+    "lib/python3.12/site-packages/jupyterlab_git/log.py",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/__init__.py",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/conftest.py",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/files/inline-conflict--1.ipynb",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/files/inline-conflict--2.ipynb",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/files/inline-conflict--3.ipynb",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/files/multilevel-test-base.ipynb",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/files/multilevel-test-local.ipynb",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/files/multilevel-test-remote.ipynb",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/files/src-and-output--1.ipynb",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/files/src-and-output--2.ipynb",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/samples/ipynb_base.json",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/samples/ipynb_nbdiff.json",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/samples/ipynb_remote.json",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/test_branch.py",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/test_clone.py",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/test_config.py",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/test_detailed_log.py",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/test_diff.py",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/test_execute.py",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/test_fetch.py",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/test_handlers.py",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/test_ignore.py",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/test_init.py",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/test_integrations.py",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/test_jupytext.py",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/test_pushpull.py",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/test_remote.py",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/test_settings.py",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/test_single_file_log.py",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/test_stash.py",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/test_status.py",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/test_tag.py",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/testutils.py",
+    "lib/python3.12/site-packages/jupyterlab_git/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/__pycache__/_version.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/__pycache__/git.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/__pycache__/handlers.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/__pycache__/log.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/conftest.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_branch.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_clone.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_config.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_detailed_log.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_diff.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_execute.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_fetch.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_handlers.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_ignore.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_init.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_integrations.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_jupytext.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_pushpull.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_remote.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_settings.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_single_file_log.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_stash.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_status.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_tag.cpython-312.pyc",
+    "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/testutils.cpython-312.pyc"
+  ],
+  "fn": "jupyterlab-git-0.50.1-pyhd8ed1ab_1.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/domo/.conda/pkgs/jupyterlab-git-0.50.1-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "2b60b39e08ca93efbb55bcbdf4e6a950",
+  "name": "jupyterlab-git",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/domo/.conda/pkgs/jupyterlab-git-0.50.1-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "etc/jupyter/jupyter_server_config.d/jupyterlab_git.json",
+        "path_type": "hardlink",
+        "sha256": "f4ad1c1bd22c8384ec44d93e2089d9bb1e236d3d86c32fd69a8b7fdb20d5037d",
+        "sha256_in_prefix": "f4ad1c1bd22c8384ec44d93e2089d9bb1e236d3d86c32fd69a8b7fdb20d5037d",
+        "size_in_bytes": 89
+      },
+      {
+        "_path": "python-scripts/.jupyterlab-git-post-link.sh",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "python-scripts/.jupyterlab-git-pre-unlink.sh",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/install.json",
+        "path_type": "hardlink",
+        "sha256": "b1a1a743c3b6c566ea84e688425576eebf45a98f05bde66abd8471d544c5c2a0",
+        "sha256_in_prefix": "b1a1a743c3b6c566ea84e688425576eebf45a98f05bde66abd8471d544c5c2a0",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/package.json",
+        "path_type": "hardlink",
+        "sha256": "c06d6aa1f6071fb870fb452e7f7de8e8feb26ddb174a2653ad066813b81b3a1e",
+        "sha256_in_prefix": "c06d6aa1f6071fb870fb452e7f7de8e8feb26ddb174a2653ad066813b81b3a1e",
+        "size_in_bytes": 8798
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/schemas/@jupyterlab/git/package.json.orig",
+        "path_type": "hardlink",
+        "sha256": "e2a25134043f49c2666592fd7dbeb759d2c9d4ea8feb6848bc776aca541b4660",
+        "sha256_in_prefix": "e2a25134043f49c2666592fd7dbeb759d2c9d4ea8feb6848bc776aca541b4660",
+        "size_in_bytes": 10016
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/schemas/@jupyterlab/git/plugin.json",
+        "path_type": "hardlink",
+        "sha256": "d305a3992b8e39cc0542035d6c88b9917c4c781c52e110f88654c515669e01a4",
+        "sha256_in_prefix": "d305a3992b8e39cc0542035d6c88b9917c4c781c52e110f88654c515669e01a4",
+        "size_in_bytes": 6802
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/10.6b01aeeda69547263561.js",
+        "path_type": "hardlink",
+        "sha256": "6b01aeeda695472635613e5da62de785fb93e0a5ff0a3580db36bb8618494b1e",
+        "sha256_in_prefix": "6b01aeeda695472635613e5da62de785fb93e0a5ff0a3580db36bb8618494b1e",
+        "size_in_bytes": 3236
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/122.5ba163cf07ee5ab4b45f.js",
+        "path_type": "hardlink",
+        "sha256": "5ba163cf07ee5ab4b45fb385556223feded97768777ca5de7368520d3cec15f7",
+        "sha256_in_prefix": "5ba163cf07ee5ab4b45fb385556223feded97768777ca5de7368520d3cec15f7",
+        "size_in_bytes": 362
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/171.3886234f49e694ae95b7.js",
+        "path_type": "hardlink",
+        "sha256": "3886234f49e694ae95b7ece28724f2bfd2f255b3834902e6105f31f7b12d470c",
+        "sha256_in_prefix": "3886234f49e694ae95b7ece28724f2bfd2f255b3834902e6105f31f7b12d470c",
+        "size_in_bytes": 4110
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/242.ca107b156a41aa38af3c.js",
+        "path_type": "hardlink",
+        "sha256": "ca107b156a41aa38af3c3b4c3a64c463ec901bc4abb42eea9d3cd969ca2ba139",
+        "sha256_in_prefix": "ca107b156a41aa38af3c3b4c3a64c463ec901bc4abb42eea9d3cd969ca2ba139",
+        "size_in_bytes": 4112822
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/266.45b6171124f7c87df871.js",
+        "path_type": "hardlink",
+        "sha256": "45b6171124f7c87df8712055c9b9ffd0b2b145057c70e82abffc0f303b685fe0",
+        "sha256_in_prefix": "45b6171124f7c87df8712055c9b9ffd0b2b145057c70e82abffc0f303b685fe0",
+        "size_in_bytes": 2917
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/27.96eaab30453ba73d0911.js",
+        "path_type": "hardlink",
+        "sha256": "96eaab30453ba73d0911db1768b7cc8b357540be9fb381e982063059dc8aa365",
+        "sha256_in_prefix": "96eaab30453ba73d0911db1768b7cc8b357540be9fb381e982063059dc8aa365",
+        "size_in_bytes": 18974
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/282.d7c76becd5c65086b75b.js",
+        "path_type": "hardlink",
+        "sha256": "d7c76becd5c65086b75b82b8dfe78496b35e28989e3e054244e5d5fe9a226242",
+        "sha256_in_prefix": "d7c76becd5c65086b75b82b8dfe78496b35e28989e3e054244e5d5fe9a226242",
+        "size_in_bytes": 3841
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/308.7fdaf50366be965d87a8.js",
+        "path_type": "hardlink",
+        "sha256": "7fdaf50366be965d87a8c978daa015619c6b8686dda14568863cc55f32bfe83d",
+        "sha256_in_prefix": "7fdaf50366be965d87a8c978daa015619c6b8686dda14568863cc55f32bfe83d",
+        "size_in_bytes": 121887
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/338.e6e982cc684fe40f637d.js",
+        "path_type": "hardlink",
+        "sha256": "d37a434e91bd5921ef13df4b853de6083f626771caa3c0c9f2625b20d47f73da",
+        "sha256_in_prefix": "d37a434e91bd5921ef13df4b853de6083f626771caa3c0c9f2625b20d47f73da",
+        "size_in_bytes": 7466
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/338.e6e982cc684fe40f637d.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "96a525187855637cf799c57eb13c11119466d4a43b99a4a257af869bc45240d6",
+        "sha256_in_prefix": "96a525187855637cf799c57eb13c11119466d4a43b99a4a257af869bc45240d6",
+        "size_in_bytes": 246
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/378.ba25417c17d90ae2da47.js",
+        "path_type": "hardlink",
+        "sha256": "ba25417c17d90ae2da479e280b36b10112740929531fe23a4c450e88fbe837a7",
+        "sha256_in_prefix": "ba25417c17d90ae2da479e280b36b10112740929531fe23a4c450e88fbe837a7",
+        "size_in_bytes": 11029
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/392.c5c9794b5ab642294edf.js",
+        "path_type": "hardlink",
+        "sha256": "c5c9794b5ab642294edf0b360bd0e92dcfb0d8903f7aa1e31ef90f07da58b309",
+        "sha256_in_prefix": "c5c9794b5ab642294edf0b360bd0e92dcfb0d8903f7aa1e31ef90f07da58b309",
+        "size_in_bytes": 7395
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/405.a3174e55e00ed9436e42.js",
+        "path_type": "hardlink",
+        "sha256": "a3174e55e00ed9436e42db80f628af2210e409500b550e7a8bbb249f340dd9e8",
+        "sha256_in_prefix": "a3174e55e00ed9436e42db80f628af2210e409500b550e7a8bbb249f340dd9e8",
+        "size_in_bytes": 24130
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/612.284a1c84e063a1f3247e.js",
+        "path_type": "hardlink",
+        "sha256": "284a1c84e063a1f3247e206cd12d18a052143ed7b8d77041ca2b1ac4cb264de2",
+        "sha256_in_prefix": "284a1c84e063a1f3247e206cd12d18a052143ed7b8d77041ca2b1ac4cb264de2",
+        "size_in_bytes": 324878
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/638.7c1aca2e676069b2614f.js",
+        "path_type": "hardlink",
+        "sha256": "7c1aca2e676069b2614ffc6281c5a60b08ab914fcea1417e483d64a815425337",
+        "sha256_in_prefix": "7c1aca2e676069b2614ffc6281c5a60b08ab914fcea1417e483d64a815425337",
+        "size_in_bytes": 205309
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/66.43ea78698c0b68dd185e.js",
+        "path_type": "hardlink",
+        "sha256": "c1b708380eefe9feb6cd3d6e2ea398a78957a475068419857f7625c63cc380c9",
+        "sha256_in_prefix": "c1b708380eefe9feb6cd3d6e2ea398a78957a475068419857f7625c63cc380c9",
+        "size_in_bytes": 36106
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/66.43ea78698c0b68dd185e.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "78d27c81cf67f4817c9d6d5df6c23d9e2b87b2d6338cdcf9bea5f1f5481648f7",
+        "sha256_in_prefix": "78d27c81cf67f4817c9d6d5df6c23d9e2b87b2d6338cdcf9bea5f1f5481648f7",
+        "size_in_bytes": 249
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/725.f68c9b248131f7920e24.js",
+        "path_type": "hardlink",
+        "sha256": "f68c9b248131f7920e2460919871cf3517b515fe6d0e89916508783fa1ac7c4f",
+        "sha256_in_prefix": "f68c9b248131f7920e2460919871cf3517b515fe6d0e89916508783fa1ac7c4f",
+        "size_in_bytes": 931
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/728.552705d5c0c271b81970.js",
+        "path_type": "hardlink",
+        "sha256": "552705d5c0c271b81970add17243265e910c549459830720f68f2684d7f55e7e",
+        "sha256_in_prefix": "552705d5c0c271b81970add17243265e910c549459830720f68f2684d7f55e7e",
+        "size_in_bytes": 7395
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/747.30dabbfed4f4994e24bc.js",
+        "path_type": "hardlink",
+        "sha256": "30dabbfed4f4994e24bce61bd1a332a3e6fb2756b38170c34e92c285ea79e71c",
+        "sha256_in_prefix": "30dabbfed4f4994e24bce61bd1a332a3e6fb2756b38170c34e92c285ea79e71c",
+        "size_in_bytes": 10825
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/789.270919a0cb6c3ffb4b8c.js",
+        "path_type": "hardlink",
+        "sha256": "270919a0cb6c3ffb4b8c2f07b6fab49602830f366a03f5d447389d3e67b9f365",
+        "sha256_in_prefix": "270919a0cb6c3ffb4b8c2f07b6fab49602830f366a03f5d447389d3e67b9f365",
+        "size_in_bytes": 216738
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/846.a9161577f8b977644eaf.js",
+        "path_type": "hardlink",
+        "sha256": "a9161577f8b977644eaf42d7495828b2af5b6f3f7146b51d4a7c0806289210f0",
+        "sha256_in_prefix": "a9161577f8b977644eaf42d7495828b2af5b6f3f7146b51d4a7c0806289210f0",
+        "size_in_bytes": 9734
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/881.42c4dde967f7d347bc86.js",
+        "path_type": "hardlink",
+        "sha256": "669dd25d7660e911f60e0d77ebcfb85d221cc22149831cd87a4a23473ac1253f",
+        "sha256_in_prefix": "669dd25d7660e911f60e0d77ebcfb85d221cc22149831cd87a4a23473ac1253f",
+        "size_in_bytes": 157546
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/881.42c4dde967f7d347bc86.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "65028375ad93e5c9cc11b21b7e0b1ce266ae4bcec482330d31fc6bfa0229c0a7",
+        "sha256_in_prefix": "65028375ad93e5c9cc11b21b7e0b1ce266ae4bcec482330d31fc6bfa0229c0a7",
+        "size_in_bytes": 240
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/946.0b568842df5b992322e5.js",
+        "path_type": "hardlink",
+        "sha256": "0b568842df5b992322e5a4d0d221b0e792927d06ab8fd6ab36c840ce8bd0b3d0",
+        "sha256_in_prefix": "0b568842df5b992322e5a4d0d221b0e792927d06ab8fd6ab36c840ce8bd0b3d0",
+        "size_in_bytes": 9104
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/967.2aaf8ca7c37a92081b62.js",
+        "path_type": "hardlink",
+        "sha256": "94d1e9033fe28c29fced423f62adbd82b792b52f0d7e34f193a2d7ff4cf39ae1",
+        "sha256_in_prefix": "94d1e9033fe28c29fced423f62adbd82b792b52f0d7e34f193a2d7ff4cf39ae1",
+        "size_in_bytes": 2659
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/967.2aaf8ca7c37a92081b62.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "51b173e7b641c5918212ea26b1cec5788d4d273170811935461819e645944165",
+        "sha256_in_prefix": "51b173e7b641c5918212ea26b1cec5788d4d273170811935461819e645944165",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/remoteEntry.ccc243fc663fff0c3508.js",
+        "path_type": "hardlink",
+        "sha256": "ccc243fc663fff0c3508cd36b448102900b2b6bf1197fe14c899d186231ffd03",
+        "sha256_in_prefix": "ccc243fc663fff0c3508cd36b448102900b2b6bf1197fe14c899d186231ffd03",
+        "size_in_bytes": 12869
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/style.js",
+        "path_type": "hardlink",
+        "sha256": "5884804fbaa343789c336e266473504834e4097b920f040a856ff553ba0ac536",
+        "sha256_in_prefix": "5884804fbaa343789c336e266473504834e4097b920f040a856ff553ba0ac536",
+        "size_in_bytes": 158
+      },
+      {
+        "_path": "share/jupyter/labextensions/@jupyterlab/git/static/third-party-licenses.json",
+        "path_type": "hardlink",
+        "sha256": "137a029fadc66cde4c72e300179966e9a9bb4eeae31c27a0170b1f2398bf0aa7",
+        "sha256_in_prefix": "137a029fadc66cde4c72e300179966e9a9bb4eeae31c27a0170b1f2398bf0aa7",
+        "size_in_bytes": 72344
+      },
+      {
+        "_path": "site-packages/jupyterlab_git-0.50.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/jupyterlab_git-0.50.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f05d79300fb2072ca94196c40266621b8817a1178122eed81c4fbf47a9559b5b",
+        "sha256_in_prefix": "f05d79300fb2072ca94196c40266621b8817a1178122eed81c4fbf47a9559b5b",
+        "size_in_bytes": 32275
+      },
+      {
+        "_path": "site-packages/jupyterlab_git-0.50.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "159d906886bdc812034bc836ea2beb6b8db176d4059c8a7611a4a237db57ac41",
+        "sha256_in_prefix": "159d906886bdc812034bc836ea2beb6b8db176d4059c8a7611a4a237db57ac41",
+        "size_in_bytes": 11034
+      },
+      {
+        "_path": "site-packages/jupyterlab_git-0.50.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/jupyterlab_git-0.50.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "d7215d7625cc9af60aed0613aad44db57eba589d0ccfc3d8122114a0e514c516",
+        "sha256_in_prefix": "d7215d7625cc9af60aed0613aad44db57eba589d0ccfc3d8122114a0e514c516",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/jupyterlab_git-0.50.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d4f2e06e6e047a0b5bb505d972bb9e9857da65abca2d179c5c242deea4996176",
+        "sha256_in_prefix": "d4f2e06e6e047a0b5bb505d972bb9e9857da65abca2d179c5c242deea4996176",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/jupyterlab_git-0.50.1.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "02d9996e2b906345b3aaf80f1aaad5bf5994aa908336788eb092c4c393c7db08",
+        "sha256_in_prefix": "02d9996e2b906345b3aaf80f1aaad5bf5994aa908336788eb092c4c393c7db08",
+        "size_in_bytes": 1532
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8a427e32f2d4a7b54a8fae29a8c5f54dceb1c2dd67e47e7d1f0f54635241e95d",
+        "sha256_in_prefix": "8a427e32f2d4a7b54a8fae29a8c5f54dceb1c2dd67e47e7d1f0f54635241e95d",
+        "size_in_bytes": 2461
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/_version.py",
+        "path_type": "hardlink",
+        "sha256": "3588b1704b2ff2afed968d5e3dc47bea36af54191850976a66e6eb09b70bd8c8",
+        "sha256_in_prefix": "3588b1704b2ff2afed968d5e3dc47bea36af54191850976a66e6eb09b70bd8c8",
+        "size_in_bytes": 172
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/git.py",
+        "path_type": "hardlink",
+        "sha256": "379053c7e3a48c17486074feff526c3080fbc4d35d14c4623c14701165af92d5",
+        "sha256_in_prefix": "379053c7e3a48c17486074feff526c3080fbc4d35d14c4623c14701165af92d5",
+        "size_in_bytes": 76581
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/handlers.py",
+        "path_type": "hardlink",
+        "sha256": "f513ed0cc7502e720eff896da7801d50b70667145f08770c53c2e85e6f51cae2",
+        "sha256_in_prefix": "f513ed0cc7502e720eff896da7801d50b70667145f08770c53c2e85e6f51cae2",
+        "size_in_bytes": 35584
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/log.py",
+        "path_type": "hardlink",
+        "sha256": "259cfeabd4aab3f1273262229468c69478a8df293063acbdfcbd6d7ce641d27c",
+        "sha256_in_prefix": "259cfeabd4aab3f1273262229468c69478a8df293063acbdfcbd6d7ce641d27c",
+        "size_in_bytes": 429
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "696cc832069551b67fb146fee2609ebe4df55d797781c2a8209a2be14cbf0de9",
+        "sha256_in_prefix": "696cc832069551b67fb146fee2609ebe4df55d797781c2a8209a2be14cbf0de9",
+        "size_in_bytes": 3032
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/files/inline-conflict--1.ipynb",
+        "path_type": "hardlink",
+        "sha256": "b93558f6d7be97731919bae6348bba004336b28f3c1ac07cce7416d14f3f82b0",
+        "sha256_in_prefix": "b93558f6d7be97731919bae6348bba004336b28f3c1ac07cce7416d14f3f82b0",
+        "size_in_bytes": 931
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/files/inline-conflict--2.ipynb",
+        "path_type": "hardlink",
+        "sha256": "92a2e029b83fd5474615e50c3b8c8e0087ef9587b3287c15d43915cf50a50f95",
+        "sha256_in_prefix": "92a2e029b83fd5474615e50c3b8c8e0087ef9587b3287c15d43915cf50a50f95",
+        "size_in_bytes": 951
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/files/inline-conflict--3.ipynb",
+        "path_type": "hardlink",
+        "sha256": "69d5a270b2b5670082b27d2d4afce368934e2ff2c4a3aef530bab768658b5003",
+        "sha256_in_prefix": "69d5a270b2b5670082b27d2d4afce368934e2ff2c4a3aef530bab768658b5003",
+        "size_in_bytes": 933
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/files/multilevel-test-base.ipynb",
+        "path_type": "hardlink",
+        "sha256": "7dc989ce99f2ed68f45f5d4561cc81fd9fbab452a6d2cc7522531c11be962508",
+        "sha256_in_prefix": "7dc989ce99f2ed68f45f5d4561cc81fd9fbab452a6d2cc7522531c11be962508",
+        "size_in_bytes": 1818
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/files/multilevel-test-local.ipynb",
+        "path_type": "hardlink",
+        "sha256": "b7b913fbd014fe58fc21903fe10b6d2dc2fe311fe42d91a8f22afff59136b21f",
+        "sha256_in_prefix": "b7b913fbd014fe58fc21903fe10b6d2dc2fe311fe42d91a8f22afff59136b21f",
+        "size_in_bytes": 1819
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/files/multilevel-test-remote.ipynb",
+        "path_type": "hardlink",
+        "sha256": "2758f2402eead090ddeac14d922898405d55a7f4f8c2544a744a3b9b0781bb51",
+        "sha256_in_prefix": "2758f2402eead090ddeac14d922898405d55a7f4f8c2544a744a3b9b0781bb51",
+        "size_in_bytes": 1819
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/files/src-and-output--1.ipynb",
+        "path_type": "hardlink",
+        "sha256": "70b40d4373d10f375f01cf1b9035b8c23314c4f99b4d0c0f7cfaab5d2626fd7d",
+        "sha256_in_prefix": "70b40d4373d10f375f01cf1b9035b8c23314c4f99b4d0c0f7cfaab5d2626fd7d",
+        "size_in_bytes": 2010
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/files/src-and-output--2.ipynb",
+        "path_type": "hardlink",
+        "sha256": "4261a5a260932b2e96c6a364775fb542335f0e031d85f894cf8bc7c12e56cfea",
+        "sha256_in_prefix": "4261a5a260932b2e96c6a364775fb542335f0e031d85f894cf8bc7c12e56cfea",
+        "size_in_bytes": 2010
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/samples/ipynb_base.json",
+        "path_type": "hardlink",
+        "sha256": "f6bbf80b59de86ca36bb4fd542a08b6ceab11b0a97419f950734d646de84b4ea",
+        "sha256_in_prefix": "f6bbf80b59de86ca36bb4fd542a08b6ceab11b0a97419f950734d646de84b4ea",
+        "size_in_bytes": 963
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/samples/ipynb_nbdiff.json",
+        "path_type": "hardlink",
+        "sha256": "e54f767d64e8b2550b2b35b61dcf155458d0ab9b09abed1d2a6841ad4926f893",
+        "sha256_in_prefix": "e54f767d64e8b2550b2b35b61dcf155458d0ab9b09abed1d2a6841ad4926f893",
+        "size_in_bytes": 1694
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/samples/ipynb_remote.json",
+        "path_type": "hardlink",
+        "sha256": "8b58c7f7a9898561087e639e01e6f48eb644b370258c1b16800e792c8cffac32",
+        "sha256_in_prefix": "8b58c7f7a9898561087e639e01e6f48eb644b370258c1b16800e792c8cffac32",
+        "size_in_bytes": 1051
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/test_branch.py",
+        "path_type": "hardlink",
+        "sha256": "d0e785d3fa2b2b7a7450f4aba59f3ebad3eebe7a4b740eac1664a89ae689beef",
+        "sha256_in_prefix": "d0e785d3fa2b2b7a7450f4aba59f3ebad3eebe7a4b740eac1664a89ae689beef",
+        "size_in_bytes": 36569
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/test_clone.py",
+        "path_type": "hardlink",
+        "sha256": "3d8814044ce660e169ff587b9070987eafff458bdb04467c8924bddc664162e8",
+        "sha256_in_prefix": "3d8814044ce660e169ff587b9070987eafff458bdb04467c8924bddc664162e8",
+        "size_in_bytes": 12498
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/test_config.py",
+        "path_type": "hardlink",
+        "sha256": "4f72e3795feecd04878c6f2b88be0454374715b39535b5adf9a8798be443a411",
+        "sha256_in_prefix": "4f72e3795feecd04878c6f2b88be0454374715b39535b5adf9a8798be443a411",
+        "size_in_bytes": 5556
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/test_detailed_log.py",
+        "path_type": "hardlink",
+        "sha256": "b24ff787b4362800857e46fb46926fa035899e42ddf1b87ad88e069361d07a9e",
+        "sha256_in_prefix": "b24ff787b4362800857e46fb46926fa035899e42ddf1b87ad88e069361d07a9e",
+        "size_in_bytes": 4350
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/test_diff.py",
+        "path_type": "hardlink",
+        "sha256": "5be7f42c2987d3d7df917d74163bec4180149d2d5c4f231a1e922976c30c73a1",
+        "sha256_in_prefix": "5be7f42c2987d3d7df917d74163bec4180149d2d5c4f231a1e922976c30c73a1",
+        "size_in_bytes": 8902
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/test_execute.py",
+        "path_type": "hardlink",
+        "sha256": "c5bb263e7586ee19d42c305e119d2d3ca52b71304d3f4232c1f10f45e15b63b0",
+        "sha256_in_prefix": "c5bb263e7586ee19d42c305e119d2d3ca52b71304d3f4232c1f10f45e15b63b0",
+        "size_in_bytes": 941
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/test_fetch.py",
+        "path_type": "hardlink",
+        "sha256": "886b2d7fde11c2ef9df0779c7a593f4bc1f6d4e14b938ae6850e3c9121ee5a20",
+        "sha256_in_prefix": "886b2d7fde11c2ef9df0779c7a593f4bc1f6d4e14b938ae6850e3c9121ee5a20",
+        "size_in_bytes": 7487
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/test_handlers.py",
+        "path_type": "hardlink",
+        "sha256": "c8836129c848c62e0ddc9f854b285be5725ab2845d3f5400ee4ccdd53933d979",
+        "sha256_in_prefix": "c8836129c848c62e0ddc9f854b285be5725ab2845d3f5400ee4ccdd53933d979",
+        "size_in_bytes": 32713
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/test_ignore.py",
+        "path_type": "hardlink",
+        "sha256": "1374d9144d96bf1544a72b727b6569019a8327e5128ba85efbf565067f575208",
+        "sha256_in_prefix": "1374d9144d96bf1544a72b727b6569019a8327e5128ba85efbf565067f575208",
+        "size_in_bytes": 1829
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/test_init.py",
+        "path_type": "hardlink",
+        "sha256": "1419f3eeb063e526d3fd35202149389a013c27bc97fb71fb0284718163e1e14f",
+        "sha256_in_prefix": "1419f3eeb063e526d3fd35202149389a013c27bc97fb71fb0284718163e1e14f",
+        "size_in_bytes": 3737
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/test_integrations.py",
+        "path_type": "hardlink",
+        "sha256": "33b4958aefbd260b8a51fb75aa53bc0a1526b28e23d80e078055088fb8b3e14d",
+        "sha256_in_prefix": "33b4958aefbd260b8a51fb75aa53bc0a1526b28e23d80e078055088fb8b3e14d",
+        "size_in_bytes": 1412
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/test_jupytext.py",
+        "path_type": "hardlink",
+        "sha256": "ee732e5a7061a413750f9d6aea574b0ede9b2cc49a9848a2b0c118f398a78201",
+        "sha256_in_prefix": "ee732e5a7061a413750f9d6aea574b0ede9b2cc49a9848a2b0c118f398a78201",
+        "size_in_bytes": 3028
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/test_pushpull.py",
+        "path_type": "hardlink",
+        "sha256": "c346ace129530d5a9d1e6fda988a8dad0bb2687ea6178f1d1c32388d747e6c34",
+        "sha256_in_prefix": "c346ace129530d5a9d1e6fda988a8dad0bb2687ea6178f1d1c32388d747e6c34",
+        "size_in_bytes": 19503
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/test_remote.py",
+        "path_type": "hardlink",
+        "sha256": "34abd4701b7e7440f8e950f6755edd4bbda9d486147e15463488140658c97a39",
+        "sha256_in_prefix": "34abd4701b7e7440f8e950f6755edd4bbda9d486147e15463488140658c97a39",
+        "size_in_bytes": 5511
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/test_settings.py",
+        "path_type": "hardlink",
+        "sha256": "dac027b7e4adb374d0b7beeb63bc4964b0e93165783ceb8c9ea977ab46b25c8e",
+        "sha256_in_prefix": "dac027b7e4adb374d0b7beeb63bc4964b0e93165783ceb8c9ea977ab46b25c8e",
+        "size_in_bytes": 2707
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/test_single_file_log.py",
+        "path_type": "hardlink",
+        "sha256": "a4396a0dc6e651c7b84ef1f82bc3e0d6493a475fc217701ec4e3a7c1e4b1abd6",
+        "sha256_in_prefix": "a4396a0dc6e651c7b84ef1f82bc3e0d6493a475fc217701ec4e3a7c1e4b1abd6",
+        "size_in_bytes": 3329
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/test_stash.py",
+        "path_type": "hardlink",
+        "sha256": "f67fed445a91fff331a047d99e15b75faf1ff28c379bc854b443bc5a706a329a",
+        "sha256_in_prefix": "f67fed445a91fff331a047d99e15b75faf1ff28c379bc854b443bc5a706a329a",
+        "size_in_bytes": 13891
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/test_status.py",
+        "path_type": "hardlink",
+        "sha256": "3724ba68f4bc667025fd40494a55c401a5ca4881a2f2a19dd0fa865db72dbd23",
+        "sha256_in_prefix": "3724ba68f4bc667025fd40494a55c401a5ca4881a2f2a19dd0fa865db72dbd23",
+        "size_in_bytes": 13543
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/test_tag.py",
+        "path_type": "hardlink",
+        "sha256": "b1a95d0bfae54c0dabeda982a400d2c48fc5bf785549353f459704eeb5a71c39",
+        "sha256_in_prefix": "b1a95d0bfae54c0dabeda982a400d2c48fc5bf785549353f459704eeb5a71c39",
+        "size_in_bytes": 3273
+      },
+      {
+        "_path": "site-packages/jupyterlab_git/tests/testutils.py",
+        "path_type": "hardlink",
+        "sha256": "da6257f2e4cc37fa7ea6d552a221f19bcec28b793513ab82d088933e3d1f0ef5",
+        "sha256_in_prefix": "da6257f2e4cc37fa7ea6d552a221f19bcec28b793513ab82d088933e3d1f0ef5",
+        "size_in_bytes": 1476
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/__pycache__/_version.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/__pycache__/git.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/__pycache__/handlers.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/__pycache__/log.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/conftest.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_branch.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_clone.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_config.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_detailed_log.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_diff.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_execute.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_fetch.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_handlers.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_ignore.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_init.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_integrations.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_jupytext.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_pushpull.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_remote.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_settings.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_single_file_log.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_stash.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_status.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/test_tag.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/jupyterlab_git/tests/__pycache__/testutils.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "jupyterlab-git",
+  "sha256": "fd3cd644ff158e0938ae52c3d0ee78717326a9438eff142a18df7cad68c20f10",
+  "size": 900868,
+  "subdir": "noarch",
+  "timestamp": 1720358927000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/jupyterlab-git-0.50.1-pyhd8ed1ab_1.conda",
+  "version": "0.50.1"
+}

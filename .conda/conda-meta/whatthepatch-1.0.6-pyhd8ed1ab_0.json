@@ -1,0 +1,164 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.7"
+  ],
+  "extracted_package_dir": "/home/domo/.conda/pkgs/whatthepatch-1.0.6-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.12/site-packages/whatthepatch-1.0.6.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/whatthepatch-1.0.6.dist-info/LICENSE",
+    "lib/python3.12/site-packages/whatthepatch-1.0.6.dist-info/METADATA",
+    "lib/python3.12/site-packages/whatthepatch-1.0.6.dist-info/RECORD",
+    "lib/python3.12/site-packages/whatthepatch-1.0.6.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/whatthepatch-1.0.6.dist-info/WHEEL",
+    "lib/python3.12/site-packages/whatthepatch-1.0.6.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/whatthepatch-1.0.6.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/whatthepatch/__init__.py",
+    "lib/python3.12/site-packages/whatthepatch/apply.py",
+    "lib/python3.12/site-packages/whatthepatch/exceptions.py",
+    "lib/python3.12/site-packages/whatthepatch/patch.py",
+    "lib/python3.12/site-packages/whatthepatch/snippets.py",
+    "lib/python3.12/site-packages/whatthepatch/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/whatthepatch/__pycache__/apply.cpython-312.pyc",
+    "lib/python3.12/site-packages/whatthepatch/__pycache__/exceptions.cpython-312.pyc",
+    "lib/python3.12/site-packages/whatthepatch/__pycache__/patch.cpython-312.pyc",
+    "lib/python3.12/site-packages/whatthepatch/__pycache__/snippets.cpython-312.pyc"
+  ],
+  "fn": "whatthepatch-1.0.6-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/domo/.conda/pkgs/whatthepatch-1.0.6-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "2b54ace307e5648efb07c3f220ae0dd6",
+  "name": "whatthepatch",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/domo/.conda/pkgs/whatthepatch-1.0.6-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/whatthepatch-1.0.6.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/whatthepatch-1.0.6.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "94feba8020b2fb910d805aea38b0d262e6147be1650ed43572a188eeaf85378b",
+        "sha256_in_prefix": "94feba8020b2fb910d805aea38b0d262e6147be1650ed43572a188eeaf85378b",
+        "size_in_bytes": 1096
+      },
+      {
+        "_path": "site-packages/whatthepatch-1.0.6.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "9c5ca979d039e5a9329eb510a152c3c7cec8d13aa736632239beff785f761f7f",
+        "sha256_in_prefix": "9c5ca979d039e5a9329eb510a152c3c7cec8d13aa736632239beff785f761f7f",
+        "size_in_bytes": 7241
+      },
+      {
+        "_path": "site-packages/whatthepatch-1.0.6.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d244b7eef3bb51aaf6fa8384a5522af6ca90de2235336a8326bb3ee122b08519",
+        "sha256_in_prefix": "d244b7eef3bb51aaf6fa8384a5522af6ca90de2235336a8326bb3ee122b08519",
+        "size_in_bytes": 1369
+      },
+      {
+        "_path": "site-packages/whatthepatch-1.0.6.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/whatthepatch-1.0.6.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "678a585ea47fad307b3963436053a6d6a464d115fa1853f6a3c2e0bcfe39dc79",
+        "sha256_in_prefix": "678a585ea47fad307b3963436053a6d6a464d115fa1853f6a3c2e0bcfe39dc79",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/whatthepatch-1.0.6.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "7c973f28402e2219537b6a861df131dd748815f1dac284af9306603f957e0296",
+        "sha256_in_prefix": "7c973f28402e2219537b6a861df131dd748815f1dac284af9306603f957e0296",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "site-packages/whatthepatch-1.0.6.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "bc98eecc7d7111cedf8bdc57b74f699d3f8bdc0bcebd4737bc89477f3ba1dc24",
+        "sha256_in_prefix": "bc98eecc7d7111cedf8bdc57b74f699d3f8bdc0bcebd4737bc89477f3ba1dc24",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "site-packages/whatthepatch/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "132e847b80192bb61167238a5e843e2580a3b7525f5ceeafd8a196475044acb9",
+        "sha256_in_prefix": "132e847b80192bb61167238a5e843e2580a3b7525f5ceeafd8a196475044acb9",
+        "size_in_bytes": 127
+      },
+      {
+        "_path": "site-packages/whatthepatch/apply.py",
+        "path_type": "hardlink",
+        "sha256": "350dd7a2db022e210e9bff57ac9fbf8c52ecc17abc6cb71165ed56ed971a6225",
+        "sha256_in_prefix": "350dd7a2db022e210e9bff57ac9fbf8c52ecc17abc6cb71165ed56ed971a6225",
+        "size_in_bytes": 3798
+      },
+      {
+        "_path": "site-packages/whatthepatch/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "de0e34839ec2242b2a413dc8fa4a2d80eabe8f4d6079d4ad7b83c35cfe02c185",
+        "sha256_in_prefix": "de0e34839ec2242b2a413dc8fa4a2d80eabe8f4d6079d4ad7b83c35cfe02c185",
+        "size_in_bytes": 768
+      },
+      {
+        "_path": "site-packages/whatthepatch/patch.py",
+        "path_type": "hardlink",
+        "sha256": "903699e48cd88678f9eccaeb7aac49d92870cbd6eb725336e32e060cf7f6b28b",
+        "sha256_in_prefix": "903699e48cd88678f9eccaeb7aac49d92870cbd6eb725336e32e060cf7f6b28b",
+        "size_in_bytes": 29292
+      },
+      {
+        "_path": "site-packages/whatthepatch/snippets.py",
+        "path_type": "hardlink",
+        "sha256": "e606f0775f19643bddfa692f77dfb012f78db6a21c7d9cfd9ba1a7f9235f4eae",
+        "sha256_in_prefix": "e606f0775f19643bddfa692f77dfb012f78db6a21c7d9cfd9ba1a7f9235f4eae",
+        "size_in_bytes": 1402
+      },
+      {
+        "_path": "lib/python3.12/site-packages/whatthepatch/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/whatthepatch/__pycache__/apply.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/whatthepatch/__pycache__/exceptions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/whatthepatch/__pycache__/patch.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/whatthepatch/__pycache__/snippets.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "089415c22f285ca56090db075a5a65ec0998001d65075c06769be51420094a0a",
+  "size": 16908,
+  "subdir": "noarch",
+  "timestamp": 1720999307000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/whatthepatch-1.0.6-pyhd8ed1ab_0.conda",
+  "version": "1.0.6"
+}

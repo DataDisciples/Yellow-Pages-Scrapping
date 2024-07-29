@@ -1,0 +1,178 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.8",
+    "ujson >=3.0.0"
+  ],
+  "extracted_package_dir": "/home/domo/.conda/pkgs/python-lsp-jsonrpc-1.1.2-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.12/site-packages/pylsp_jsonrpc/__init__.py",
+    "lib/python3.12/site-packages/pylsp_jsonrpc/_version.py",
+    "lib/python3.12/site-packages/pylsp_jsonrpc/dispatchers.py",
+    "lib/python3.12/site-packages/pylsp_jsonrpc/endpoint.py",
+    "lib/python3.12/site-packages/pylsp_jsonrpc/exceptions.py",
+    "lib/python3.12/site-packages/pylsp_jsonrpc/streams.py",
+    "lib/python3.12/site-packages/python_lsp_jsonrpc-1.1.2.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/python_lsp_jsonrpc-1.1.2.dist-info/LICENSE",
+    "lib/python3.12/site-packages/python_lsp_jsonrpc-1.1.2.dist-info/METADATA",
+    "lib/python3.12/site-packages/python_lsp_jsonrpc-1.1.2.dist-info/RECORD",
+    "lib/python3.12/site-packages/python_lsp_jsonrpc-1.1.2.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/python_lsp_jsonrpc-1.1.2.dist-info/WHEEL",
+    "lib/python3.12/site-packages/python_lsp_jsonrpc-1.1.2.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/python_lsp_jsonrpc-1.1.2.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/pylsp_jsonrpc/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/pylsp_jsonrpc/__pycache__/_version.cpython-312.pyc",
+    "lib/python3.12/site-packages/pylsp_jsonrpc/__pycache__/dispatchers.cpython-312.pyc",
+    "lib/python3.12/site-packages/pylsp_jsonrpc/__pycache__/endpoint.cpython-312.pyc",
+    "lib/python3.12/site-packages/pylsp_jsonrpc/__pycache__/exceptions.cpython-312.pyc",
+    "lib/python3.12/site-packages/pylsp_jsonrpc/__pycache__/streams.cpython-312.pyc"
+  ],
+  "fn": "python-lsp-jsonrpc-1.1.2-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/domo/.conda/pkgs/python-lsp-jsonrpc-1.1.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "ff30dbdb341a54947c4fa183900380b7",
+  "name": "python-lsp-jsonrpc",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/domo/.conda/pkgs/python-lsp-jsonrpc-1.1.2-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pylsp_jsonrpc/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1adea3bc35034ab1618a553e072a0b37507b2a1da64750d29fe4be262b99676e",
+        "sha256_in_prefix": "1adea3bc35034ab1618a553e072a0b37507b2a1da64750d29fe4be262b99676e",
+        "size_in_bytes": 682
+      },
+      {
+        "_path": "site-packages/pylsp_jsonrpc/_version.py",
+        "path_type": "hardlink",
+        "sha256": "e528068d386c1eefc84e7f15f3706f0b38aa0b0c5d5f14d0a9c0b72903073df3",
+        "sha256_in_prefix": "e528068d386c1eefc84e7f15f3706f0b38aa0b0c5d5f14d0a9c0b72903073df3",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "site-packages/pylsp_jsonrpc/dispatchers.py",
+        "path_type": "hardlink",
+        "sha256": "44d702b19f11b2a8be51f573a102f4d7288b37ac92bff84b60e2d2dd3b3f9560",
+        "sha256_in_prefix": "44d702b19f11b2a8be51f573a102f4d7288b37ac92bff84b60e2d2dd3b3f9560",
+        "size_in_bytes": 1038
+      },
+      {
+        "_path": "site-packages/pylsp_jsonrpc/endpoint.py",
+        "path_type": "hardlink",
+        "sha256": "a1dca0e73fd8f9c3a6dc88252e9f20164752df4cf12465d59cb03d47a91e0e26",
+        "sha256_in_prefix": "a1dca0e73fd8f9c3a6dc88252e9f20164752df4cf12465d59cb03d47a91e0e26",
+        "size_in_bytes": 10221
+      },
+      {
+        "_path": "site-packages/pylsp_jsonrpc/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "91a1d1f1141784f23cb15728537e22dad0f061ab2caf86c337cf2ad97bd18af4",
+        "sha256_in_prefix": "91a1d1f1141784f23cb15728537e22dad0f061ab2caf86c337cf2ad97bd18af4",
+        "size_in_bytes": 2805
+      },
+      {
+        "_path": "site-packages/pylsp_jsonrpc/streams.py",
+        "path_type": "hardlink",
+        "sha256": "e1df3c8a617b0b676d706620695be9bd9bd74bbee61319046292997f3eb661a0",
+        "sha256_in_prefix": "e1df3c8a617b0b676d706620695be9bd9bd74bbee61319046292997f3eb661a0",
+        "size_in_bytes": 3292
+      },
+      {
+        "_path": "site-packages/python_lsp_jsonrpc-1.1.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/python_lsp_jsonrpc-1.1.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "aec02b478e57f395ae45802b2aa70fcf99bba3eabf4cd700c065cd62a7d92a1b",
+        "sha256_in_prefix": "aec02b478e57f395ae45802b2aa70fcf99bba3eabf4cd700c065cd62a7d92a1b",
+        "size_in_bytes": 1147
+      },
+      {
+        "_path": "site-packages/python_lsp_jsonrpc-1.1.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "571f39f6b701f5920b099e4397ffc9c001a86657f1558e2f0065dbec8749310f",
+        "sha256_in_prefix": "571f39f6b701f5920b099e4397ffc9c001a86657f1558e2f0065dbec8749310f",
+        "size_in_bytes": 1506
+      },
+      {
+        "_path": "site-packages/python_lsp_jsonrpc-1.1.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "550e8fd4460691f45965717711ca6ceb668b4d5d4e9f7975ca18733629c9e940",
+        "sha256_in_prefix": "550e8fd4460691f45965717711ca6ceb668b4d5d4e9f7975ca18733629c9e940",
+        "size_in_bytes": 1579
+      },
+      {
+        "_path": "site-packages/python_lsp_jsonrpc-1.1.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/python_lsp_jsonrpc-1.1.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/python_lsp_jsonrpc-1.1.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3c67441dbfd7300e19cd68903c106cbc3470dbbbd99a31638ddf7fb82ff3d2f8",
+        "sha256_in_prefix": "3c67441dbfd7300e19cd68903c106cbc3470dbbbd99a31638ddf7fb82ff3d2f8",
+        "size_in_bytes": 114
+      },
+      {
+        "_path": "site-packages/python_lsp_jsonrpc-1.1.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a82417589629c7690bd0be7391f2cc5cf6fd6bd3f1ea8ddf25cc934bf4c20773",
+        "sha256_in_prefix": "a82417589629c7690bd0be7391f2cc5cf6fd6bd3f1ea8ddf25cc934bf4c20773",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pylsp_jsonrpc/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pylsp_jsonrpc/__pycache__/_version.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pylsp_jsonrpc/__pycache__/dispatchers.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pylsp_jsonrpc/__pycache__/endpoint.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pylsp_jsonrpc/__pycache__/exceptions.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/pylsp_jsonrpc/__pycache__/streams.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9d60c2ebce844420946beed1aca571f2bb8001269352c70ff0168a07bdc656e1",
+  "size": 13984,
+  "subdir": "noarch",
+  "timestamp": 1695528516000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/python-lsp-jsonrpc-1.1.2-pyhd8ed1ab_0.conda",
+  "version": "1.1.2"
+}

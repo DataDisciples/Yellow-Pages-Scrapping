@@ -1,0 +1,554 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "extracted_package_dir": "/home/domo/.conda/pkgs/archspec-0.2.2-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "lib/python3.12/site-packages/archspec-0.2.2.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/archspec-0.2.2.dist-info/METADATA",
+    "lib/python3.12/site-packages/archspec-0.2.2.dist-info/RECORD",
+    "lib/python3.12/site-packages/archspec-0.2.2.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/archspec-0.2.2.dist-info/WHEEL",
+    "lib/python3.12/site-packages/archspec-0.2.2.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/archspec-0.2.2.dist-info/entry_points.txt",
+    "lib/python3.12/site-packages/archspec/__init__.py",
+    "lib/python3.12/site-packages/archspec/__main__.py",
+    "lib/python3.12/site-packages/archspec/cli.py",
+    "lib/python3.12/site-packages/archspec/cpu/__init__.py",
+    "lib/python3.12/site-packages/archspec/cpu/alias.py",
+    "lib/python3.12/site-packages/archspec/cpu/detect.py",
+    "lib/python3.12/site-packages/archspec/cpu/microarchitecture.py",
+    "lib/python3.12/site-packages/archspec/cpu/schema.py",
+    "lib/python3.12/site-packages/archspec/json/.github/workflows/validation.yml",
+    "lib/python3.12/site-packages/archspec/json/COPYRIGHT",
+    "lib/python3.12/site-packages/archspec/json/LICENSE-APACHE",
+    "lib/python3.12/site-packages/archspec/json/LICENSE-MIT",
+    "lib/python3.12/site-packages/archspec/json/NOTICE",
+    "lib/python3.12/site-packages/archspec/json/README.md",
+    "lib/python3.12/site-packages/archspec/json/cpu/microarchitectures.json",
+    "lib/python3.12/site-packages/archspec/json/cpu/microarchitectures_schema.json",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/bgq-rhel6-power7",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/darwin-bigsur-m1",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/darwin-mojave-haswell",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/darwin-mojave-ivybridge",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/darwin-mojave-skylake",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/darwin-monterey-m1",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/darwin-monterey-m2",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-amazon-cortex_a72",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-amazon-neoverse_n1",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-amazon-neoverse_v1",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-amazon2-sapphirerapids",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-asahi-m1",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-asahi-m2",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-centos7-cascadelake",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-centos7-power8le",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-centos7-thunderx2",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-rhel6-piledriver",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-rhel7-broadwell",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-rhel7-haswell",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-rhel7-ivybridge",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-rhel7-skylake_avx512",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-rhel7-x86_64_v3",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-rhel7-zen",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-rhel8-power9",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-rocky8-a64fx",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-rocky8.5-zen4",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-scientific7-k10",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-scientific7-piledriver",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-scientificfermi6-bulldozer",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-scientificfermi6-piledriver",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-sifive-u74mc",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-ubuntu18.04-broadwell",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-ubuntu20.04-zen3",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-ubuntu22.04-neoverse_v2",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-unknown-power10",
+    "lib/python3.12/site-packages/archspec/json/tests/targets/linux-unknown-sapphirerapids",
+    "lib/python3.12/site-packages/archspec/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/archspec/__pycache__/__main__.cpython-312.pyc",
+    "lib/python3.12/site-packages/archspec/__pycache__/cli.cpython-312.pyc",
+    "lib/python3.12/site-packages/archspec/cpu/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/archspec/cpu/__pycache__/alias.cpython-312.pyc",
+    "lib/python3.12/site-packages/archspec/cpu/__pycache__/detect.cpython-312.pyc",
+    "lib/python3.12/site-packages/archspec/cpu/__pycache__/microarchitecture.cpython-312.pyc",
+    "lib/python3.12/site-packages/archspec/cpu/__pycache__/schema.cpython-312.pyc",
+    "bin/archspec"
+  ],
+  "fn": "archspec-0.2.2-pyhd8ed1ab_0.conda",
+  "license": "MIT OR Apache-2.0",
+  "link": {
+    "source": "/home/domo/.conda/pkgs/archspec-0.2.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "0dc2fce00a160271714647c019e3a8a8",
+  "name": "archspec",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/domo/.conda/pkgs/archspec-0.2.2-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/archspec-0.2.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/archspec-0.2.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "8d9374c5e7bc4d49c597f8f4129f97ce2424a6303cc78b3eee414cea4764d7b6",
+        "sha256_in_prefix": "8d9374c5e7bc4d49c597f8f4129f97ce2424a6303cc78b3eee414cea4764d7b6",
+        "size_in_bytes": 4375
+      },
+      {
+        "_path": "site-packages/archspec-0.2.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "5c9b20e3e864f3b05d693b9d5f3af5b43323fd097b535af82ed4441aa1b4e14f",
+        "sha256_in_prefix": "5c9b20e3e864f3b05d693b9d5f3af5b43323fd097b535af82ed4441aa1b4e14f",
+        "size_in_bytes": 6369
+      },
+      {
+        "_path": "site-packages/archspec-0.2.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/archspec-0.2.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "14cbea4a29985ff3fbcb46bb518fbf31cf37af9ce4059b0260f9bb2ebd01b2ae",
+        "sha256_in_prefix": "14cbea4a29985ff3fbcb46bb518fbf31cf37af9ce4059b0260f9bb2ebd01b2ae",
+        "size_in_bytes": 88
+      },
+      {
+        "_path": "site-packages/archspec-0.2.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "6464dba91878fe3bc81e74ef20a598114f2eeb6a709385c24e53fc6eb9ec48f1",
+        "sha256_in_prefix": "6464dba91878fe3bc81e74ef20a598114f2eeb6a709385c24e53fc6eb9ec48f1",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/archspec-0.2.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "bfaba68aee5e4120fad3cf158b2be48e573559548728ad0b00331aeeb329366e",
+        "sha256_in_prefix": "bfaba68aee5e4120fad3cf158b2be48e573559548728ad0b00331aeeb329366e",
+        "size_in_bytes": 46
+      },
+      {
+        "_path": "site-packages/archspec/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "54396abd9f54124aa54f2d53005e2cade636a999cc446ed876fd6980d8234f39",
+        "sha256_in_prefix": "54396abd9f54124aa54f2d53005e2cade636a999cc446ed876fd6980d8234f39",
+        "size_in_bytes": 66
+      },
+      {
+        "_path": "site-packages/archspec/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "0693b8e0cc2e9cd12ef9d5aa7e08ef6e88e71236620d9ac245c5a9b07d33a8ae",
+        "sha256_in_prefix": "0693b8e0cc2e9cd12ef9d5aa7e08ef6e88e71236620d9ac245c5a9b07d33a8ae",
+        "size_in_bytes": 96
+      },
+      {
+        "_path": "site-packages/archspec/cli.py",
+        "path_type": "hardlink",
+        "sha256": "710507e3c03b19cb717cba5a6bbced70328fd152f700dd1d6378fcb4b39f2639",
+        "sha256_in_prefix": "710507e3c03b19cb717cba5a6bbced70328fd152f700dd1d6378fcb4b39f2639",
+        "size_in_bytes": 1605
+      },
+      {
+        "_path": "site-packages/archspec/cpu/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2a04e9259401f2c5cd2a3aa15ef6ae2b44e18681eba2c80c749ea530988452cb",
+        "sha256_in_prefix": "2a04e9259401f2c5cd2a3aa15ef6ae2b44e18681eba2c80c749ea530988452cb",
+        "size_in_bytes": 670
+      },
+      {
+        "_path": "site-packages/archspec/cpu/alias.py",
+        "path_type": "hardlink",
+        "sha256": "1ab24f6965faf85b687a9177cf61bc4708a4681fbfb251d54f9e32150b4e2d4d",
+        "sha256_in_prefix": "1ab24f6965faf85b687a9177cf61bc4708a4681fbfb251d54f9e32150b4e2d4d",
+        "size_in_bytes": 2506
+      },
+      {
+        "_path": "site-packages/archspec/cpu/detect.py",
+        "path_type": "hardlink",
+        "sha256": "4dcb78bee65420a7c355fc9f4f97df3164a156d6e7077eceb07b79c984fbfa4f",
+        "sha256_in_prefix": "4dcb78bee65420a7c355fc9f4f97df3164a156d6e7077eceb07b79c984fbfa4f",
+        "size_in_bytes": 12718
+      },
+      {
+        "_path": "site-packages/archspec/cpu/microarchitecture.py",
+        "path_type": "hardlink",
+        "sha256": "2bab3985ec91d7578a9e76e0d0592ad358771b4eda2219acad625735f972611a",
+        "sha256_in_prefix": "2bab3985ec91d7578a9e76e0d0592ad358771b4eda2219acad625735f972611a",
+        "size_in_bytes": 13367
+      },
+      {
+        "_path": "site-packages/archspec/cpu/schema.py",
+        "path_type": "hardlink",
+        "sha256": "c80011c692a8df68ae549776339e8058159c70d6e9baae265d7ccd69a628f8d1",
+        "sha256_in_prefix": "c80011c692a8df68ae549776339e8058159c70d6e9baae265d7ccd69a628f8d1",
+        "size_in_bytes": 1899
+      },
+      {
+        "_path": "site-packages/archspec/json/.github/workflows/validation.yml",
+        "path_type": "hardlink",
+        "sha256": "835a79c5e7a03c64c6d9885a5336c3df816c9143ee24fff6c122137e661a139d",
+        "sha256_in_prefix": "835a79c5e7a03c64c6d9885a5336c3df816c9143ee24fff6c122137e661a139d",
+        "size_in_bytes": 558
+      },
+      {
+        "_path": "site-packages/archspec/json/COPYRIGHT",
+        "path_type": "hardlink",
+        "sha256": "9d70c5a837efa62df7ee37df1c70ddffc0bb38e38df29ddfdcfa01462407cdfb",
+        "sha256_in_prefix": "9d70c5a837efa62df7ee37df1c70ddffc0bb38e38df29ddfdcfa01462407cdfb",
+        "size_in_bytes": 805
+      },
+      {
+        "_path": "site-packages/archspec/json/LICENSE-APACHE",
+        "path_type": "hardlink",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "sha256_in_prefix": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_in_bytes": 11358
+      },
+      {
+        "_path": "site-packages/archspec/json/LICENSE-MIT",
+        "path_type": "hardlink",
+        "sha256": "9001ad99a662075a0e5a6a9a539fc75040d8063c3f7251d6839ca40b5234054e",
+        "sha256_in_prefix": "9001ad99a662075a0e5a6a9a539fc75040d8063c3f7251d6839ca40b5234054e",
+        "size_in_bytes": 1171
+      },
+      {
+        "_path": "site-packages/archspec/json/NOTICE",
+        "path_type": "hardlink",
+        "sha256": "f4247dde07952a5ff866b24e45b5cdd1fce410cdb2e038255a1635867f59c10c",
+        "sha256_in_prefix": "f4247dde07952a5ff866b24e45b5cdd1fce410cdb2e038255a1635867f59c10c",
+        "size_in_bytes": 1167
+      },
+      {
+        "_path": "site-packages/archspec/json/README.md",
+        "path_type": "hardlink",
+        "sha256": "3721087fc3c12923face645aa131ac60a72650510f00c920e6451a006a857d22",
+        "sha256_in_prefix": "3721087fc3c12923face645aa131ac60a72650510f00c920e6451a006a857d22",
+        "size_in_bytes": 1386
+      },
+      {
+        "_path": "site-packages/archspec/json/cpu/microarchitectures.json",
+        "path_type": "hardlink",
+        "sha256": "9cce34d24e1c99accfbd2afb8e47156b6c8d97c685fb7c52d9dc7700ffc74cab",
+        "sha256_in_prefix": "9cce34d24e1c99accfbd2afb8e47156b6c8d97c685fb7c52d9dc7700ffc74cab",
+        "size_in_bytes": 81400
+      },
+      {
+        "_path": "site-packages/archspec/json/cpu/microarchitectures_schema.json",
+        "path_type": "hardlink",
+        "sha256": "0ab4d74339a40e681fc1e2a32687bc9e4b11ee170ca259143cfb9da6c3895bea",
+        "sha256_in_prefix": "0ab4d74339a40e681fc1e2a32687bc9e4b11ee170ca259143cfb9da6c3895bea",
+        "size_in_bytes": 2955
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/bgq-rhel6-power7",
+        "path_type": "hardlink",
+        "sha256": "efc8296d50ed99a7a1c66f88e77fc90fdfed62bf2690325f503f5d03de5a9058",
+        "sha256_in_prefix": "efc8296d50ed99a7a1c66f88e77fc90fdfed62bf2690325f503f5d03de5a9058",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/darwin-bigsur-m1",
+        "path_type": "hardlink",
+        "sha256": "71c5c33f8a0635b3ad4c0d7a665f67b6e87947926a9c196f6504fa9b7538e13c",
+        "sha256_in_prefix": "71c5c33f8a0635b3ad4c0d7a665f67b6e87947926a9c196f6504fa9b7538e13c",
+        "size_in_bytes": 534
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/darwin-mojave-haswell",
+        "path_type": "hardlink",
+        "sha256": "c7676a2a8e0f6324230383b6f659864ae26ebdb3f0b13e0b1d8b7ad0fb74fec3",
+        "sha256_in_prefix": "c7676a2a8e0f6324230383b6f659864ae26ebdb3f0b13e0b1d8b7ad0fb74fec3",
+        "size_in_bytes": 553
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/darwin-mojave-ivybridge",
+        "path_type": "hardlink",
+        "sha256": "6045156b145266635ad8da790e98c059d170146fa8f369e354a9b040329595dc",
+        "sha256_in_prefix": "6045156b145266635ad8da790e98c059d170146fa8f369e354a9b040329595dc",
+        "size_in_bytes": 2356
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/darwin-mojave-skylake",
+        "path_type": "hardlink",
+        "sha256": "1de9a687a33406f1ecd389eed8d10bcb6d0238c2fff781b5cc7e1b02e994fdd8",
+        "sha256_in_prefix": "1de9a687a33406f1ecd389eed8d10bcb6d0238c2fff781b5cc7e1b02e994fdd8",
+        "size_in_bytes": 598
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/darwin-monterey-m1",
+        "path_type": "hardlink",
+        "sha256": "5921bd3b8e3a43f4920fdbc7b988f549a236cc0e83846b45dd4536d316e767db",
+        "sha256_in_prefix": "5921bd3b8e3a43f4920fdbc7b988f549a236cc0e83846b45dd4536d316e767db",
+        "size_in_bytes": 3307
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/darwin-monterey-m2",
+        "path_type": "hardlink",
+        "sha256": "1310acde662c01bdcbb7a6570cb235a5a9bd5ab11f0cd561a1da617d503b2bac",
+        "sha256_in_prefix": "1310acde662c01bdcbb7a6570cb235a5a9bd5ab11f0cd561a1da617d503b2bac",
+        "size_in_bytes": 3307
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-amazon-cortex_a72",
+        "path_type": "hardlink",
+        "sha256": "3fb6008a9bee765a365353ef51ad357434761ca41444f781d8f1cdbbb90745eb",
+        "sha256_in_prefix": "3fb6008a9bee765a365353ef51ad357434761ca41444f781d8f1cdbbb90745eb",
+        "size_in_bytes": 221
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-amazon-neoverse_n1",
+        "path_type": "hardlink",
+        "sha256": "cef1c93aa2f31dfe1c4ec7259689815f689264d2b8e4c899d33da327d01e0ea9",
+        "sha256_in_prefix": "cef1c93aa2f31dfe1c4ec7259689815f689264d2b8e4c899d33da327d01e0ea9",
+        "size_in_bytes": 276
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-amazon-neoverse_v1",
+        "path_type": "hardlink",
+        "sha256": "d91b16bca108c87c5542e9c1460fd7ef5addbead9d84f29184a72c61d59bf36e",
+        "sha256_in_prefix": "d91b16bca108c87c5542e9c1460fd7ef5addbead9d84f29184a72c61d59bf36e",
+        "size_in_bytes": 361
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-amazon2-sapphirerapids",
+        "path_type": "hardlink",
+        "sha256": "69181ab4ebd026a24a9c8eb6602e850ae1f188c5ad9f099b6b6d3f2a8d1723e9",
+        "sha256_in_prefix": "69181ab4ebd026a24a9c8eb6602e850ae1f188c5ad9f099b6b6d3f2a8d1723e9",
+        "size_in_bytes": 1519
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-asahi-m1",
+        "path_type": "hardlink",
+        "sha256": "84a10e95ba66915e35ff5f03f9732283c4d95761626492e706363066da4dac84",
+        "sha256_in_prefix": "84a10e95ba66915e35ff5f03f9732283c4d95761626492e706363066da4dac84",
+        "size_in_bytes": 363
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-asahi-m2",
+        "path_type": "hardlink",
+        "sha256": "48a12dbf702133e673cf2afde06162aeb1795092894ce399a8adf72ae95a0622",
+        "sha256_in_prefix": "48a12dbf702133e673cf2afde06162aeb1795092894ce399a8adf72ae95a0622",
+        "size_in_bytes": 381
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-centos7-cascadelake",
+        "path_type": "hardlink",
+        "sha256": "618768f06d1b3fce5b9f874675678f343b6112d0218632954525ecdcced88e0f",
+        "sha256_in_prefix": "618768f06d1b3fce5b9f874675678f343b6112d0218632954525ecdcced88e0f",
+        "size_in_bytes": 1408
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-centos7-power8le",
+        "path_type": "hardlink",
+        "sha256": "2a09064a41cba64daf3f88f45b79bb8877b9e7d7fea716b6ae25ad02420c471a",
+        "sha256_in_prefix": "2a09064a41cba64daf3f88f45b79bb8877b9e7d7fea716b6ae25ad02420c471a",
+        "size_in_bytes": 111
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-centos7-thunderx2",
+        "path_type": "hardlink",
+        "sha256": "2bcc6c9eadd6ec40be3d7bf98f732c1ab6aea3038044638a8f7ffbfa83ac3492",
+        "sha256_in_prefix": "2bcc6c9eadd6ec40be3d7bf98f732c1ab6aea3038044638a8f7ffbfa83ac3492",
+        "size_in_bytes": 238
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-rhel6-piledriver",
+        "path_type": "hardlink",
+        "sha256": "dd89d0a53060062ec566d482ac98c0831f438c57bddbeb18a15240a6b3012bfa",
+        "sha256_in_prefix": "dd89d0a53060062ec566d482ac98c0831f438c57bddbeb18a15240a6b3012bfa",
+        "size_in_bytes": 1411
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-rhel7-broadwell",
+        "path_type": "hardlink",
+        "sha256": "1c15848b2136b8a0d8452dc2d2b2aca486ffe50ca96397ecf7834710349a3cbd",
+        "sha256_in_prefix": "1c15848b2136b8a0d8452dc2d2b2aca486ffe50ca96397ecf7834710349a3cbd",
+        "size_in_bytes": 1187
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-rhel7-haswell",
+        "path_type": "hardlink",
+        "sha256": "92adaa92ee78a8f89cfeaf829cec3e4548f59d74c6eac6470540cc84cc99cfd8",
+        "sha256_in_prefix": "92adaa92ee78a8f89cfeaf829cec3e4548f59d74c6eac6470540cc84cc99cfd8",
+        "size_in_bytes": 1095
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-rhel7-ivybridge",
+        "path_type": "hardlink",
+        "sha256": "3c2d4d2f0f404c1ac237bcc742ccf16ef1d5bcc1cbd71505a55d689fde1433a4",
+        "sha256_in_prefix": "3c2d4d2f0f404c1ac237bcc742ccf16ef1d5bcc1cbd71505a55d689fde1433a4",
+        "size_in_bytes": 1009
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-rhel7-skylake_avx512",
+        "path_type": "hardlink",
+        "sha256": "dc523c693fba3b0056135e452a8443cd38b3e415ea5d84799c5353060ed8f50c",
+        "sha256_in_prefix": "dc523c693fba3b0056135e452a8443cd38b3e415ea5d84799c5353060ed8f50c",
+        "size_in_bytes": 1286
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-rhel7-x86_64_v3",
+        "path_type": "hardlink",
+        "sha256": "0fa88a864f4a4256fda987ad3dd50198354d015afe846576f7bbc31cbc1ed853",
+        "sha256_in_prefix": "0fa88a864f4a4256fda987ad3dd50198354d015afe846576f7bbc31cbc1ed853",
+        "size_in_bytes": 1172
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-rhel7-zen",
+        "path_type": "hardlink",
+        "sha256": "89cc9b64203e6d7b9ab272474bfaa7534b41a50823cbafa30d18ad482db42751",
+        "sha256_in_prefix": "89cc9b64203e6d7b9ab272474bfaa7534b41a50823cbafa30d18ad482db42751",
+        "size_in_bytes": 1319
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-rhel8-power9",
+        "path_type": "hardlink",
+        "sha256": "2f2d25d3092ef3408c762cefd5408a131d928a9f52ff405dd0f4c27d03d81cb7",
+        "sha256_in_prefix": "2f2d25d3092ef3408c762cefd5408a131d928a9f52ff405dd0f4c27d03d81cb7",
+        "size_in_bytes": 135
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-rocky8-a64fx",
+        "path_type": "hardlink",
+        "sha256": "ad5a3ebaa6042679603d70216edf8b6b55b6e4247fc5f6f4deb874b79db4ff53",
+        "sha256_in_prefix": "ad5a3ebaa6042679603d70216edf8b6b55b6e4247fc5f6f4deb874b79db4ff53",
+        "size_in_bytes": 256
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-rocky8.5-zen4",
+        "path_type": "hardlink",
+        "sha256": "cb850341d3b1b20d07978eb55e5043fed3dbfd35fc11c5d5edbc221d09facc53",
+        "sha256_in_prefix": "cb850341d3b1b20d07978eb55e5043fed3dbfd35fc11c5d5edbc221d09facc53",
+        "size_in_bytes": 1750
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-scientific7-k10",
+        "path_type": "hardlink",
+        "sha256": "c4485009ce4222a0563a87b6f2bbeb5be0678d94a438406fd205cb40ce720271",
+        "sha256_in_prefix": "c4485009ce4222a0563a87b6f2bbeb5be0678d94a438406fd205cb40ce720271",
+        "size_in_bytes": 1111
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-scientific7-piledriver",
+        "path_type": "hardlink",
+        "sha256": "90a0aca60ea06a65a031ef61f4cc7984fe4ed435e05ce23a887d81d817f08c38",
+        "sha256_in_prefix": "90a0aca60ea06a65a031ef61f4cc7984fe4ed435e05ce23a887d81d817f08c38",
+        "size_in_bytes": 1149
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-scientificfermi6-bulldozer",
+        "path_type": "hardlink",
+        "sha256": "6666e836acd912c596c0ec0157fbe6acd222eb1d44dc4efa533e048f5e45bb6b",
+        "sha256_in_prefix": "6666e836acd912c596c0ec0157fbe6acd222eb1d44dc4efa533e048f5e45bb6b",
+        "size_in_bytes": 1201
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-scientificfermi6-piledriver",
+        "path_type": "hardlink",
+        "sha256": "e69559a553d7b4a9aa28ad4fb362e661a8025a15936e3239728ff54236236712",
+        "sha256_in_prefix": "e69559a553d7b4a9aa28ad4fb362e661a8025a15936e3239728ff54236236712",
+        "size_in_bytes": 1099
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-sifive-u74mc",
+        "path_type": "hardlink",
+        "sha256": "3469efadc2b754fe2a99693b7993480203440facafc9f70405ab0c4e6b0781c9",
+        "sha256_in_prefix": "3469efadc2b754fe2a99693b7993480203440facafc9f70405ab0c4e6b0781c9",
+        "size_in_bytes": 124
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-ubuntu18.04-broadwell",
+        "path_type": "hardlink",
+        "sha256": "0336f7c5cf56be0c41bd044d0b99bcdd2269aabef788bac6489549e6ce3fccd2",
+        "sha256_in_prefix": "0336f7c5cf56be0c41bd044d0b99bcdd2269aabef788bac6489549e6ce3fccd2",
+        "size_in_bytes": 1190
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-ubuntu20.04-zen3",
+        "path_type": "hardlink",
+        "sha256": "63b0b0b38930cc194dba94211a5ff6c2803fd7f496c51ab08339fd35a4f7fe48",
+        "sha256_in_prefix": "63b0b0b38930cc194dba94211a5ff6c2803fd7f496c51ab08339fd35a4f7fe48",
+        "size_in_bytes": 1531
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-ubuntu22.04-neoverse_v2",
+        "path_type": "hardlink",
+        "sha256": "16b9041b19dffa29dd0f3521bb2c6830b894440b82fb659d939f8561fd293928",
+        "sha256_in_prefix": "16b9041b19dffa29dd0f3521bb2c6830b894440b82fb659d939f8561fd293928",
+        "size_in_bytes": 458
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-unknown-power10",
+        "path_type": "hardlink",
+        "sha256": "ee7b425a65c60932647d930c074988024edf7b627b3653b5d63d248ca91a4943",
+        "sha256_in_prefix": "ee7b425a65c60932647d930c074988024edf7b627b3653b5d63d248ca91a4943",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/archspec/json/tests/targets/linux-unknown-sapphirerapids",
+        "path_type": "hardlink",
+        "sha256": "f000242685da2e436199c32a529ef6e53fcc2167b2c646ab538a688bf65bd181",
+        "sha256_in_prefix": "f000242685da2e436199c32a529ef6e53fcc2167b2c646ab538a688bf65bd181",
+        "size_in_bytes": 2187
+      },
+      {
+        "_path": "lib/python3.12/site-packages/archspec/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/archspec/__pycache__/__main__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/archspec/__pycache__/cli.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/archspec/cpu/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/archspec/cpu/__pycache__/alias.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/archspec/cpu/__pycache__/detect.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/archspec/cpu/__pycache__/microarchitecture.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/archspec/cpu/__pycache__/schema.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/archspec",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e030c0993ef56def50fb3b0262a98ba17295c83b6c696748add22aee406b7bd9",
+  "size": 42313,
+  "subdir": "noarch",
+  "timestamp": 1699370190228,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/archspec-0.2.2-pyhd8ed1ab_0.conda",
+  "version": "0.2.2"
+}

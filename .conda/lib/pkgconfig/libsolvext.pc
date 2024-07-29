@@ -1,0 +1,9 @@
+libdir=/home/domo/.conda/lib
+includedir=/home/domo/.conda/include
+
+Name: libsolvext
+Description: Library for reading repositories
+Version: 0.7.27
+Requires: libsolv
+Libs: -L${libdir} -lsolvext
+Cflags: -I${includedir}

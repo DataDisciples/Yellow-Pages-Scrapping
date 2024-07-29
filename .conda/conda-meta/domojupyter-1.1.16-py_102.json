@@ -1,0 +1,673 @@
+{
+  "build": "py_102",
+  "build_number": 102,
+  "channel": "http://10.12.8.38/domo/noarch",
+  "constrains": [],
+  "depends": [
+    "pandas",
+    "python",
+    "requests"
+  ],
+  "extracted_package_dir": "/home/domo/.conda/pkgs/domojupyter-1.1.16-py_102",
+  "files": [
+    "lib/python3.12/site-packages/domojupyter-1.1.16.dist-info/INSTALLER",
+    "lib/python3.12/site-packages/domojupyter-1.1.16.dist-info/LICENSE",
+    "lib/python3.12/site-packages/domojupyter-1.1.16.dist-info/METADATA",
+    "lib/python3.12/site-packages/domojupyter-1.1.16.dist-info/RECORD",
+    "lib/python3.12/site-packages/domojupyter-1.1.16.dist-info/REQUESTED",
+    "lib/python3.12/site-packages/domojupyter-1.1.16.dist-info/WHEEL",
+    "lib/python3.12/site-packages/domojupyter-1.1.16.dist-info/direct_url.json",
+    "lib/python3.12/site-packages/domojupyter-1.1.16.dist-info/top_level.txt",
+    "lib/python3.12/site-packages/domojupyter/__init__.py",
+    "lib/python3.12/site-packages/domojupyter/ai/__init__.py",
+    "lib/python3.12/site-packages/domojupyter/ai/ai.py",
+    "lib/python3.12/site-packages/domojupyter/ai/model.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/CSVModelIOConfiguration.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/ChatAIRole.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/ChunkingConfiguration.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/Column.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/CreateModelRequest.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/DataSourceSchema.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/JSONModelIOConfiguration.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/JupyterModelContext.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/Metric.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/ModelIOConfiguration.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/ModelTask.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/ModelTaskType.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/ModelTrainingInformation.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/PromptTemplate.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/SchemaObject.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/SeparatorType.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/SizeBoundary.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/SummarizationOutputStyle.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/TextAIResponse.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/TextGenerationRequest.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/TextSummarizationRequest.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/TextToBeastModeRequest.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/TextToSQLRequest.py",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__init__.py",
+    "lib/python3.12/site-packages/domojupyter/app_db.py",
+    "lib/python3.12/site-packages/domojupyter/domo.py",
+    "lib/python3.12/site-packages/domojupyter/io.py",
+    "lib/python3.12/site-packages/domojupyter/jupyterhub.py",
+    "lib/python3.12/site-packages/domojupyter/models/CreateSnapshotRequest.py",
+    "lib/python3.12/site-packages/domojupyter/models/__init__.py",
+    "lib/python3.12/site-packages/domojupyter/snapshot.py",
+    "lib/python3.12/site-packages/domojupyter/update.py",
+    "lib/python3.12/site-packages/test/__init__.py",
+    "lib/python3.12/site-packages/test/config.py",
+    "lib/python3.12/site-packages/test/test_ai.py",
+    "lib/python3.12/site-packages/test/test_app_db.py",
+    "lib/python3.12/site-packages/test/test_domo.py",
+    "lib/python3.12/site-packages/test/test_jupyterhub.py",
+    "lib/python3.12/site-packages/test/test_model.py",
+    "lib/python3.12/site-packages/test/test_snapshot.py",
+    "lib/python3.12/site-packages/domojupyter/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/__pycache__/ai.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/__pycache__/model.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/CSVModelIOConfiguration.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/ChatAIRole.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/ChunkingConfiguration.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/Column.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/CreateModelRequest.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/DataSourceSchema.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/JSONModelIOConfiguration.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/JupyterModelContext.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/Metric.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/ModelIOConfiguration.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/ModelTask.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/ModelTaskType.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/ModelTrainingInformation.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/PromptTemplate.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/SchemaObject.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/SeparatorType.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/SizeBoundary.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/SummarizationOutputStyle.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/TextAIResponse.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/TextGenerationRequest.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/TextSummarizationRequest.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/TextToBeastModeRequest.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/TextToSQLRequest.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/__pycache__/app_db.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/__pycache__/domo.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/__pycache__/io.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/__pycache__/jupyterhub.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/models/__pycache__/CreateSnapshotRequest.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/models/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/__pycache__/snapshot.cpython-312.pyc",
+    "lib/python3.12/site-packages/domojupyter/__pycache__/update.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/__init__.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/config.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_ai.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_app_db.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_domo.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_jupyterhub.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_model.cpython-312.pyc",
+    "lib/python3.12/site-packages/test/__pycache__/test_snapshot.cpython-312.pyc"
+  ],
+  "fn": "domojupyter-1.1.16-py_102.tar.bz2",
+  "license": "Proprietary",
+  "link": {
+    "source": "/home/domo/.conda/pkgs/domojupyter-1.1.16-py_102",
+    "type": 1
+  },
+  "md5": "47e11b405bd80de4ccddfd2bc363de3d",
+  "name": "domojupyter",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/domo/.conda/pkgs/domojupyter-1.1.16-py_102.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/domojupyter-1.1.16.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/domojupyter-1.1.16.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "deedfe0d90cc06c1cc38826fbb8e7206df8869e31272dd255dcb71b74d6ecdf4",
+        "sha256_in_prefix": "deedfe0d90cc06c1cc38826fbb8e7206df8869e31272dd255dcb71b74d6ecdf4",
+        "size_in_bytes": 53
+      },
+      {
+        "_path": "site-packages/domojupyter-1.1.16.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "5cbe3da8f5259d71eb403a410c1941d90a91f410be89d2e93e701a0ce0d669b9",
+        "sha256_in_prefix": "5cbe3da8f5259d71eb403a410c1941d90a91f410be89d2e93e701a0ce0d669b9",
+        "size_in_bytes": 174
+      },
+      {
+        "_path": "site-packages/domojupyter-1.1.16.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "eb683ae1f2258dfb030d4a7fd2c11fc6f3715cc7d8dc7de79476a97a986061df",
+        "sha256_in_prefix": "eb683ae1f2258dfb030d4a7fd2c11fc6f3715cc7d8dc7de79476a97a986061df",
+        "size_in_bytes": 7342
+      },
+      {
+        "_path": "site-packages/domojupyter-1.1.16.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/domojupyter-1.1.16.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+        "sha256_in_prefix": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/domojupyter-1.1.16.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f3b98c7f0ac454934f15c8930db2aea766cd787729bb1cd815ea1eb0c1c85bb9",
+        "sha256_in_prefix": "f3b98c7f0ac454934f15c8930db2aea766cd787729bb1cd815ea1eb0c1c85bb9",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "site-packages/domojupyter-1.1.16.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "499f997517430a91bd884440d2103350bcbed1c57e7897a82ffa4128b0613309",
+        "sha256_in_prefix": "499f997517430a91bd884440d2103350bcbed1c57e7897a82ffa4128b0613309",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "site-packages/domojupyter/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b4096af4843318901e4e53e7c3d9c09801f5281bfe7eeae275ede667e641cda8",
+        "sha256_in_prefix": "b4096af4843318901e4e53e7c3d9c09801f5281bfe7eeae275ede667e641cda8",
+        "size_in_bytes": 453
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3e7e01f383bc116885eda79915fd8719db094bd517d6d3bfd387c96e4dea50de",
+        "sha256_in_prefix": "3e7e01f383bc116885eda79915fd8719db094bd517d6d3bfd387c96e4dea50de",
+        "size_in_bytes": 1250
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/ai.py",
+        "path_type": "hardlink",
+        "sha256": "93f836a4176e3dfec865a027d467cef3c2f86982049d729f0eace9abc7b321aa",
+        "sha256_in_prefix": "93f836a4176e3dfec865a027d467cef3c2f86982049d729f0eace9abc7b321aa",
+        "size_in_bytes": 8201
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/model.py",
+        "path_type": "hardlink",
+        "sha256": "3b8fbd477226b4fc4aa8377ccf8632803ef1105eed4fa134e6d50c0ac367f44d",
+        "sha256_in_prefix": "3b8fbd477226b4fc4aa8377ccf8632803ef1105eed4fa134e6d50c0ac367f44d",
+        "size_in_bytes": 4193
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/CSVModelIOConfiguration.py",
+        "path_type": "hardlink",
+        "sha256": "983b0dde6b0cd3b1bda975f05d0b402b7bb5273a68d33e90391a520edbcacae8",
+        "sha256_in_prefix": "983b0dde6b0cd3b1bda975f05d0b402b7bb5273a68d33e90391a520edbcacae8",
+        "size_in_bytes": 1898
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/ChatAIRole.py",
+        "path_type": "hardlink",
+        "sha256": "be09261a083567526172859eb8326a29e81bf7d1a3db54ac0f93a370e16a40e5",
+        "sha256_in_prefix": "be09261a083567526172859eb8326a29e81bf7d1a3db54ac0f93a370e16a40e5",
+        "size_in_bytes": 95
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/ChunkingConfiguration.py",
+        "path_type": "hardlink",
+        "sha256": "f333acf7f3f91d03125737e10dd9e9ddce24758b151f9ed86590641c0b89b1ce",
+        "sha256_in_prefix": "f333acf7f3f91d03125737e10dd9e9ddce24758b151f9ed86590641c0b89b1ce",
+        "size_in_bytes": 1328
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/Column.py",
+        "path_type": "hardlink",
+        "sha256": "20a1c61211d82a9923a96aecf19f45285a3ae1343617626bed91c5e83417ac4a",
+        "sha256_in_prefix": "20a1c61211d82a9923a96aecf19f45285a3ae1343617626bed91c5e83417ac4a",
+        "size_in_bytes": 776
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/CreateModelRequest.py",
+        "path_type": "hardlink",
+        "sha256": "22ef665970f364f35e8699adf41627b2d4c880eae8609a80a035408e38d44e02",
+        "sha256_in_prefix": "22ef665970f364f35e8699adf41627b2d4c880eae8609a80a035408e38d44e02",
+        "size_in_bytes": 1118
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/DataSourceSchema.py",
+        "path_type": "hardlink",
+        "sha256": "0d98e8fc46eddb221c9963c42b14fec60e507b4284f62224d4a6a968a11b00e4",
+        "sha256_in_prefix": "0d98e8fc46eddb221c9963c42b14fec60e507b4284f62224d4a6a968a11b00e4",
+        "size_in_bytes": 925
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/JSONModelIOConfiguration.py",
+        "path_type": "hardlink",
+        "sha256": "d6bd5429812399476b41d5a1e70a2d1fe706349dba3ef612a2587c5601e190d7",
+        "sha256_in_prefix": "d6bd5429812399476b41d5a1e70a2d1fe706349dba3ef612a2587c5601e190d7",
+        "size_in_bytes": 573
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/JupyterModelContext.py",
+        "path_type": "hardlink",
+        "sha256": "4b48054a16c4575835af7bc6155ce74074c62a62cd666933c5930c2f304dda31",
+        "sha256_in_prefix": "4b48054a16c4575835af7bc6155ce74074c62a62cd666933c5930c2f304dda31",
+        "size_in_bytes": 456
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/Metric.py",
+        "path_type": "hardlink",
+        "sha256": "dd3d36e0a3d064398cfab42f9af3ad95cae31891e1bc3988eb1394dd54788756",
+        "sha256_in_prefix": "dd3d36e0a3d064398cfab42f9af3ad95cae31891e1bc3988eb1394dd54788756",
+        "size_in_bytes": 680
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/ModelIOConfiguration.py",
+        "path_type": "hardlink",
+        "sha256": "bb5815e16428d704dd89876f42c2adca42b3f180b56f89e69ab487ef795a3a97",
+        "sha256_in_prefix": "bb5815e16428d704dd89876f42c2adca42b3f180b56f89e69ab487ef795a3a97",
+        "size_in_bytes": 282
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/ModelTask.py",
+        "path_type": "hardlink",
+        "sha256": "813b90e58c77dad04d5d9a2d64f1ea0e70df7c4618296d0f99099054bbac9256",
+        "sha256_in_prefix": "813b90e58c77dad04d5d9a2d64f1ea0e70df7c4618296d0f99099054bbac9256",
+        "size_in_bytes": 794
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/ModelTaskType.py",
+        "path_type": "hardlink",
+        "sha256": "3a0d5bddbb024472e76209104009d29390cacff619f1ca91e35c24ee6623d28d",
+        "sha256_in_prefix": "3a0d5bddbb024472e76209104009d29390cacff619f1ca91e35c24ee6623d28d",
+        "size_in_bytes": 454
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/ModelTrainingInformation.py",
+        "path_type": "hardlink",
+        "sha256": "70de630d7dd5af28d589fdeacf5fed0a983e0812751d14700f8f6107f7adefb8",
+        "sha256_in_prefix": "70de630d7dd5af28d589fdeacf5fed0a983e0812751d14700f8f6107f7adefb8",
+        "size_in_bytes": 599
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/PromptTemplate.py",
+        "path_type": "hardlink",
+        "sha256": "a2ed8c11fce9c0072bb640266030648a98ebfa23d863b6b5b74fcf7c44cc5e8c",
+        "sha256_in_prefix": "a2ed8c11fce9c0072bb640266030648a98ebfa23d863b6b5b74fcf7c44cc5e8c",
+        "size_in_bytes": 183
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/SchemaObject.py",
+        "path_type": "hardlink",
+        "sha256": "1284ab4125bc5ba3c5aaadb9d78092fa15298fe72165542fa523c9f2b35e9bef",
+        "sha256_in_prefix": "1284ab4125bc5ba3c5aaadb9d78092fa15298fe72165542fa523c9f2b35e9bef",
+        "size_in_bytes": 639
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/SeparatorType.py",
+        "path_type": "hardlink",
+        "sha256": "8847861095cc69eb9addc96e1808e24122996814c993b8620f17348c19cc7028",
+        "sha256_in_prefix": "8847861095cc69eb9addc96e1808e24122996814c993b8620f17348c19cc7028",
+        "size_in_bytes": 357
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/SizeBoundary.py",
+        "path_type": "hardlink",
+        "sha256": "1786412b0b24e2c84a58a724c24a1bec14ab0985e258ed03a560bfb7de02f8ef",
+        "sha256_in_prefix": "1786412b0b24e2c84a58a724c24a1bec14ab0985e258ed03a560bfb7de02f8ef",
+        "size_in_bytes": 652
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/SummarizationOutputStyle.py",
+        "path_type": "hardlink",
+        "sha256": "1ff7ffef08a64ba6c849618bb7b00c0618e4661f25896b6d47fc8591e0ee62b7",
+        "sha256_in_prefix": "1ff7ffef08a64ba6c849618bb7b00c0618e4661f25896b6d47fc8591e0ee62b7",
+        "size_in_bytes": 324
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/TextAIResponse.py",
+        "path_type": "hardlink",
+        "sha256": "34eef7a1ae2fe3354bbc99147124fea522676aa215be252b32eacb92bfb5338c",
+        "sha256_in_prefix": "34eef7a1ae2fe3354bbc99147124fea522676aa215be252b32eacb92bfb5338c",
+        "size_in_bytes": 123
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/TextGenerationRequest.py",
+        "path_type": "hardlink",
+        "sha256": "2329d4d03e8f5eeaf646d6da2b53542e5d01b4dbef038c36d1e243ccf4c20c0e",
+        "sha256_in_prefix": "2329d4d03e8f5eeaf646d6da2b53542e5d01b4dbef038c36d1e243ccf4c20c0e",
+        "size_in_bytes": 904
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/TextSummarizationRequest.py",
+        "path_type": "hardlink",
+        "sha256": "1415e1b81d677012b231f828c3aee348c7be6a0fa32e221d7c755fe02adc717d",
+        "sha256_in_prefix": "1415e1b81d677012b231f828c3aee348c7be6a0fa32e221d7c755fe02adc717d",
+        "size_in_bytes": 1883
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/TextToBeastModeRequest.py",
+        "path_type": "hardlink",
+        "sha256": "0a0b885f9825662a2659d16600c1ad11597e6f6903685b9ece2329bd6e43b9ac",
+        "sha256_in_prefix": "0a0b885f9825662a2659d16600c1ad11597e6f6903685b9ece2329bd6e43b9ac",
+        "size_in_bytes": 1207
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/TextToSQLRequest.py",
+        "path_type": "hardlink",
+        "sha256": "736ec3bc624714886cd3462d2229b9e42fd2a0ac8293117305eb3b7fa54eac58",
+        "sha256_in_prefix": "736ec3bc624714886cd3462d2229b9e42fd2a0ac8293117305eb3b7fa54eac58",
+        "size_in_bytes": 1230
+      },
+      {
+        "_path": "site-packages/domojupyter/ai/models/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/domojupyter/app_db.py",
+        "path_type": "hardlink",
+        "sha256": "bf7b1e5f20bcea7bbbb516c431b487f9daf9dbe25ca86845340df5152849f9a2",
+        "sha256_in_prefix": "bf7b1e5f20bcea7bbbb516c431b487f9daf9dbe25ca86845340df5152849f9a2",
+        "size_in_bytes": 5153
+      },
+      {
+        "_path": "site-packages/domojupyter/domo.py",
+        "path_type": "hardlink",
+        "sha256": "94bda79ee3b2d0e9c7a78b72ab816598af7b83cd4a16345c7c0b81becbd86813",
+        "sha256_in_prefix": "94bda79ee3b2d0e9c7a78b72ab816598af7b83cd4a16345c7c0b81becbd86813",
+        "size_in_bytes": 19046
+      },
+      {
+        "_path": "site-packages/domojupyter/io.py",
+        "path_type": "hardlink",
+        "sha256": "22bcfe2098cd81d8d218a9c722c1f7b602eda38f86b8d34e2bb37842abee1e6b",
+        "sha256_in_prefix": "22bcfe2098cd81d8d218a9c722c1f7b602eda38f86b8d34e2bb37842abee1e6b",
+        "size_in_bytes": 10298
+      },
+      {
+        "_path": "site-packages/domojupyter/jupyterhub.py",
+        "path_type": "hardlink",
+        "sha256": "421b3ed32f3abe4c059e772056275c0ddb27cd832d825f318cd2425a30c7e648",
+        "sha256_in_prefix": "421b3ed32f3abe4c059e772056275c0ddb27cd832d825f318cd2425a30c7e648",
+        "size_in_bytes": 3825
+      },
+      {
+        "_path": "site-packages/domojupyter/models/CreateSnapshotRequest.py",
+        "path_type": "hardlink",
+        "sha256": "09d76b1966b800043285d03c02c1372d7a0e3a2126780b5636a0f89b1b441757",
+        "sha256_in_prefix": "09d76b1966b800043285d03c02c1372d7a0e3a2126780b5636a0f89b1b441757",
+        "size_in_bytes": 169
+      },
+      {
+        "_path": "site-packages/domojupyter/models/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/domojupyter/snapshot.py",
+        "path_type": "hardlink",
+        "sha256": "aa75ae123699e2b27ebe39e1337fc4020e2176d111d0f878722679c97a256219",
+        "sha256_in_prefix": "aa75ae123699e2b27ebe39e1337fc4020e2176d111d0f878722679c97a256219",
+        "size_in_bytes": 2184
+      },
+      {
+        "_path": "site-packages/domojupyter/update.py",
+        "path_type": "hardlink",
+        "sha256": "b73675fbd1283dc951317d5dd84453446b0dcf1151683b0da734d473d1a69a1a",
+        "sha256_in_prefix": "b73675fbd1283dc951317d5dd84453446b0dcf1151683b0da734d473d1a69a1a",
+        "size_in_bytes": 635
+      },
+      {
+        "_path": "site-packages/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/test/config.py",
+        "path_type": "hardlink",
+        "sha256": "7115a034664ddcf1254764322b42ae4ece3738f24db9a450f109c3679aeb9aeb",
+        "sha256_in_prefix": "7115a034664ddcf1254764322b42ae4ece3738f24db9a450f109c3679aeb9aeb",
+        "size_in_bytes": 990
+      },
+      {
+        "_path": "site-packages/test/test_ai.py",
+        "path_type": "hardlink",
+        "sha256": "f7ef5262ae30090ee2320582223f4c441acc887ae20d51999cc2b0dbe3daffbb",
+        "sha256_in_prefix": "f7ef5262ae30090ee2320582223f4c441acc887ae20d51999cc2b0dbe3daffbb",
+        "size_in_bytes": 4198
+      },
+      {
+        "_path": "site-packages/test/test_app_db.py",
+        "path_type": "hardlink",
+        "sha256": "ddf4117fc4cc8b573a1c06768c0e0d31310a26819119b10a24897fe70512d079",
+        "sha256_in_prefix": "ddf4117fc4cc8b573a1c06768c0e0d31310a26819119b10a24897fe70512d079",
+        "size_in_bytes": 2982
+      },
+      {
+        "_path": "site-packages/test/test_domo.py",
+        "path_type": "hardlink",
+        "sha256": "8ecaeb495134998b7799efa57f24aad27ceb293a1278ee1ab7219f5bff2588da",
+        "sha256_in_prefix": "8ecaeb495134998b7799efa57f24aad27ceb293a1278ee1ab7219f5bff2588da",
+        "size_in_bytes": 3465
+      },
+      {
+        "_path": "site-packages/test/test_jupyterhub.py",
+        "path_type": "hardlink",
+        "sha256": "6131c0ad187e56553634073c20a1b913b0e6376b6f772be3a4893d26aa17d79e",
+        "sha256_in_prefix": "6131c0ad187e56553634073c20a1b913b0e6376b6f772be3a4893d26aa17d79e",
+        "size_in_bytes": 1025
+      },
+      {
+        "_path": "site-packages/test/test_model.py",
+        "path_type": "hardlink",
+        "sha256": "f373a6d018a3c6693b1baf2932b18f66e2136065d200feb7c46000c0c2e5c1b2",
+        "sha256_in_prefix": "f373a6d018a3c6693b1baf2932b18f66e2136065d200feb7c46000c0c2e5c1b2",
+        "size_in_bytes": 525
+      },
+      {
+        "_path": "site-packages/test/test_snapshot.py",
+        "path_type": "hardlink",
+        "sha256": "d763b310c4df7c4de294e12a632f4eb52bf53b7d2838beec4268f73528468cf4",
+        "sha256_in_prefix": "d763b310c4df7c4de294e12a632f4eb52bf53b7d2838beec4268f73528468cf4",
+        "size_in_bytes": 868
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/__pycache__/ai.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/__pycache__/model.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/CSVModelIOConfiguration.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/ChatAIRole.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/ChunkingConfiguration.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/Column.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/CreateModelRequest.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/DataSourceSchema.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/JSONModelIOConfiguration.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/JupyterModelContext.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/Metric.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/ModelIOConfiguration.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/ModelTask.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/ModelTaskType.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/ModelTrainingInformation.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/PromptTemplate.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/SchemaObject.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/SeparatorType.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/SizeBoundary.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/SummarizationOutputStyle.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/TextAIResponse.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/TextGenerationRequest.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/TextSummarizationRequest.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/TextToBeastModeRequest.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/TextToSQLRequest.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/ai/models/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/__pycache__/app_db.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/__pycache__/domo.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/__pycache__/io.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/__pycache__/jupyterhub.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/models/__pycache__/CreateSnapshotRequest.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/models/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/__pycache__/snapshot.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/domojupyter/__pycache__/update.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/config.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_ai.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_app_db.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_domo.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_jupyterhub.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_model.cpython-312.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.12/site-packages/test/__pycache__/test_snapshot.cpython-312.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "domojupyter==1.1.16=py_102",
+  "sha256": "df4774d07b0559a4042a4b609e73affcd2ec64d4b8f2b1315b2e7b8a759d96f8",
+  "size": 29933,
+  "subdir": "noarch",
+  "timestamp": 1717520817000,
+  "url": "http://10.12.8.38/domo/noarch/domojupyter-1.1.16-py_102.tar.bz2",
+  "version": "1.1.16"
+}

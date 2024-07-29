@@ -1,0 +1,13 @@
+{
+  "base_url": "/user/datadisciples-1354559185/aa98956d/",
+  "hostname": "0.0.0.0",
+  "password": false,
+  "pid": 14,
+  "port": 8888,
+  "root_dir": "/home/domo",
+  "secure": false,
+  "sock": "",
+  "token": "f3705eb835ef3cdeb2ee772c0b8cefee73a78cbabc821c4d",
+  "url": "http://jupyter-25--aa98956d:8888/user/datadisciples-1354559185/aa98956d/",
+  "version": "2.14.2"
+}

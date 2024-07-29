@@ -1,0 +1,13 @@
+prefix=/home/domo/.conda
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.12.3
+Description: libXML library version2.
+Requires.private:  icu-i18n
+Libs: -L${libdir} -lxml2 
+Libs.private:  -L/home/domo/.conda/lib -lz -L/home/domo/.conda/lib -llzma  -L/home/domo/.conda/lib  -lm  
+Cflags: -I${includedir}/libxml2 -I/home/domo/.conda/include 

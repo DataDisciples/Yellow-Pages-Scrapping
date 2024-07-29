@@ -1,0 +1,44 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "autopep8 >=2.0.4,<2.1.0",
+    "flake8 >=7.0.0,<8.0.0",
+    "mccabe >=0.7.0,<0.8.0",
+    "pycodestyle >=2.11.0,<2.12.0",
+    "pydocstyle >=6.3.0,<6.4.0",
+    "pyflakes >=3.2.0,<3.3.0",
+    "pylint >=2.5.0,<3.1.0",
+    "python",
+    "python-lsp-server-base 1.10.0 pyhd8ed1ab_0",
+    "rope >=1.11.0",
+    "whatthepatch >=1.0.2,<2.0.0",
+    "yapf >=0.33.0"
+  ],
+  "extracted_package_dir": "/home/domo/.conda/pkgs/python-lsp-server-1.10.0-pyhd8ed1ab_0",
+  "files": [],
+  "fn": "python-lsp-server-1.10.0-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/domo/.conda/pkgs/python-lsp-server-1.10.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "51da987dc568ec0484bc22e1e2025830",
+  "name": "python-lsp-server",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/domo/.conda/pkgs/python-lsp-server-1.10.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "python-lsp-server=1.10.0",
+  "sha256": "89b438f4dc71a441bdcc0ff81bd39dd5b9c3d6f29679822b0450c1bbca7990dc",
+  "size": 7309,
+  "subdir": "noarch",
+  "timestamp": 1705942582000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/python-lsp-server-1.10.0-pyhd8ed1ab_0.conda",
+  "version": "1.10.0"
+}

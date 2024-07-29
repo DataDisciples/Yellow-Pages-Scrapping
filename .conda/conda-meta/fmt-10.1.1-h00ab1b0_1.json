@@ -1,0 +1,202 @@
+{
+    "arch": "x86_64",
+    "build": "h00ab1b0_1",
+    "build_number": 1,
+    "channel": "conda-forge",
+    "depends": [
+        "libgcc-ng >=12",
+        "libstdcxx-ng >=12"
+    ],
+    "extracted_package_dir": "/home/domo/.conda/pkgs/fmt-10.1.1-h00ab1b0_1",
+    "files": [
+        "include/fmt/args.h",
+        "include/fmt/chrono.h",
+        "include/fmt/color.h",
+        "include/fmt/compile.h",
+        "include/fmt/core.h",
+        "include/fmt/format-inl.h",
+        "include/fmt/format.h",
+        "include/fmt/os.h",
+        "include/fmt/ostream.h",
+        "include/fmt/printf.h",
+        "include/fmt/ranges.h",
+        "include/fmt/std.h",
+        "include/fmt/xchar.h",
+        "lib/cmake/fmt/fmt-config-version.cmake",
+        "lib/cmake/fmt/fmt-config.cmake",
+        "lib/cmake/fmt/fmt-targets-release.cmake",
+        "lib/cmake/fmt/fmt-targets.cmake",
+        "lib/libfmt.so",
+        "lib/libfmt.so.10",
+        "lib/libfmt.so.10.1.1",
+        "lib/pkgconfig/fmt.pc"
+    ],
+    "fn": "fmt-10.1.1-h00ab1b0_1.conda",
+    "license": "MIT",
+    "license_family": "MIT",
+    "link": {
+        "source": "/home/domo/.conda/pkgs/fmt-10.1.1-h00ab1b0_1",
+        "type": 1
+    },
+    "md5": "50a08d74ca45785f3334b175da23fd82",
+    "name": "fmt",
+    "package_tarball_full_path": "/home/domo/.conda/pkgs/fmt-10.1.1-h00ab1b0_1.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "include/fmt/args.h",
+                "path_type": "hardlink",
+                "sha256": "1630d95baa22add33bd24c2a6a057ebc2fc6b59012f6a27163a11fce61840805",
+                "sha256_in_prefix": "1630d95baa22add33bd24c2a6a057ebc2fc6b59012f6a27163a11fce61840805",
+                "size_in_bytes": 7418
+            },
+            {
+                "_path": "include/fmt/chrono.h",
+                "path_type": "hardlink",
+                "sha256": "e2ab7043953611ed8db0195856d7bc15b3de6d176a520052d7b8db73d84dca46",
+                "sha256_in_prefix": "e2ab7043953611ed8db0195856d7bc15b3de6d176a520052d7b8db73d84dca46",
+                "size_in_bytes": 72610
+            },
+            {
+                "_path": "include/fmt/color.h",
+                "path_type": "hardlink",
+                "sha256": "1f683f618206674221c6942adbcbbc381f76b60b3c79764f02060576cd265aba",
+                "sha256_in_prefix": "1f683f618206674221c6942adbcbbc381f76b60b3c79764f02060576cd265aba",
+                "size_in_bytes": 24267
+            },
+            {
+                "_path": "include/fmt/compile.h",
+                "path_type": "hardlink",
+                "sha256": "354d566a311dc882ee9022de209f1d392b93471cb0678e3986db9669c5127f63",
+                "sha256_in_prefix": "354d566a311dc882ee9022de209f1d392b93471cb0678e3986db9669c5127f63",
+                "size_in_bytes": 19004
+            },
+            {
+                "_path": "include/fmt/core.h",
+                "path_type": "hardlink",
+                "sha256": "2c0366208c7677171b8cf188e5c6553a7d78c8272ae4ef893b2d6c8311968504",
+                "sha256_in_prefix": "2c0366208c7677171b8cf188e5c6553a7d78c8272ae4ef893b2d6c8311968504",
+                "size_in_bytes": 98378
+            },
+            {
+                "_path": "include/fmt/format-inl.h",
+                "path_type": "hardlink",
+                "sha256": "dabbdd38d59b2a38e14f299226455094e7caac76ad936444778bbb2dfef68013",
+                "sha256_in_prefix": "dabbdd38d59b2a38e14f299226455094e7caac76ad936444778bbb2dfef68013",
+                "size_in_bytes": 73122
+            },
+            {
+                "_path": "include/fmt/format.h",
+                "path_type": "hardlink",
+                "sha256": "492b5dc209b7f2c577181f1d83c458a34808c71ae3ede1173db1fab7d0fee6d7",
+                "sha256_in_prefix": "492b5dc209b7f2c577181f1d83c458a34808c71ae3ede1173db1fab7d0fee6d7",
+                "size_in_bytes": 163914
+            },
+            {
+                "_path": "include/fmt/os.h",
+                "path_type": "hardlink",
+                "sha256": "6fd21dd576e48d83e5c9b8b4de16027ffca6616a4d9fc4db1365263eca759ba5",
+                "sha256_in_prefix": "6fd21dd576e48d83e5c9b8b4de16027ffca6616a4d9fc4db1365263eca759ba5",
+                "size_in_bytes": 13040
+            },
+            {
+                "_path": "include/fmt/ostream.h",
+                "path_type": "hardlink",
+                "sha256": "b28b4672bbead7d6c425409245e9ee36afce2adcbc29c66155b314280ffbaca0",
+                "sha256_in_prefix": "b28b4672bbead7d6c425409245e9ee36afce2adcbc29c66155b314280ffbaca0",
+                "size_in_bytes": 6554
+            },
+            {
+                "_path": "include/fmt/printf.h",
+                "path_type": "hardlink",
+                "sha256": "fdf160c97e1a2ee571f5f2a941e654d4205dc48679a6d6cf61805e37f96b9655",
+                "sha256_in_prefix": "fdf160c97e1a2ee571f5f2a941e654d4205dc48679a6d6cf61805e37f96b9655",
+                "size_in_bytes": 20677
+            },
+            {
+                "_path": "include/fmt/ranges.h",
+                "path_type": "hardlink",
+                "sha256": "4517687b7cb24f0dacf9e077bf522ad409545ead5840ca773e97329277c51194",
+                "sha256_in_prefix": "4517687b7cb24f0dacf9e077bf522ad409545ead5840ca773e97329277c51194",
+                "size_in_bytes": 24258
+            },
+            {
+                "_path": "include/fmt/std.h",
+                "path_type": "hardlink",
+                "sha256": "cc6a8260c4146279416ca35e9c6987737b4cd4ad2f1f92956fbe4c1b4a1b8bda",
+                "sha256_in_prefix": "cc6a8260c4146279416ca35e9c6987737b4cd4ad2f1f92956fbe4c1b4a1b8bda",
+                "size_in_bytes": 13966
+            },
+            {
+                "_path": "include/fmt/xchar.h",
+                "path_type": "hardlink",
+                "sha256": "963aff5ed0a2f86c58ea3c57aed9fd03452744e641bb272c7b69e3c97f9fa219",
+                "sha256_in_prefix": "963aff5ed0a2f86c58ea3c57aed9fd03452744e641bb272c7b69e3c97f9fa219",
+                "size_in_bytes": 9895
+            },
+            {
+                "_path": "lib/cmake/fmt/fmt-config-version.cmake",
+                "path_type": "hardlink",
+                "sha256": "1f787b2c8d404e2cb941e3ac9b44ac85e38ca557d35fc6636215ecaa2f9ad0d0",
+                "sha256_in_prefix": "1f787b2c8d404e2cb941e3ac9b44ac85e38ca557d35fc6636215ecaa2f9ad0d0",
+                "size_in_bytes": 1862
+            },
+            {
+                "_path": "lib/cmake/fmt/fmt-config.cmake",
+                "path_type": "hardlink",
+                "sha256": "09df979ff1d267e2e4e590435fcab8f4e40a4af9d2d3f938af4fad6fa1bc2d6e",
+                "sha256_in_prefix": "09df979ff1d267e2e4e590435fcab8f4e40a4af9d2d3f938af4fad6fa1bc2d6e",
+                "size_in_bytes": 999
+            },
+            {
+                "_path": "lib/cmake/fmt/fmt-targets-release.cmake",
+                "path_type": "hardlink",
+                "sha256": "f1b3957ae9f8bae2538644bfe96ff7ca827f3af11fd1577fb0f71e7b5723bb1b",
+                "sha256_in_prefix": "f1b3957ae9f8bae2538644bfe96ff7ca827f3af11fd1577fb0f71e7b5723bb1b",
+                "size_in_bytes": 814
+            },
+            {
+                "_path": "lib/cmake/fmt/fmt-targets.cmake",
+                "path_type": "hardlink",
+                "sha256": "4fb7518eb1b9f416f81ad87bcb738f0563b7e9dfc1c8df9c8222521738285279",
+                "sha256_in_prefix": "4fb7518eb1b9f416f81ad87bcb738f0563b7e9dfc1c8df9c8222521738285279",
+                "size_in_bytes": 4422
+            },
+            {
+                "_path": "lib/libfmt.so",
+                "path_type": "softlink",
+                "sha256_in_prefix": "d2e52f0a8544060fd84622a3fd2540f80b0525e5ff979c6bdef5ce92d31434da",
+                "size_in_bytes": 175104
+            },
+            {
+                "_path": "lib/libfmt.so.10",
+                "path_type": "softlink",
+                "sha256_in_prefix": "d2e52f0a8544060fd84622a3fd2540f80b0525e5ff979c6bdef5ce92d31434da",
+                "size_in_bytes": 175104
+            },
+            {
+                "_path": "lib/libfmt.so.10.1.1",
+                "path_type": "hardlink",
+                "sha256": "d2e52f0a8544060fd84622a3fd2540f80b0525e5ff979c6bdef5ce92d31434da",
+                "sha256_in_prefix": "d2e52f0a8544060fd84622a3fd2540f80b0525e5ff979c6bdef5ce92d31434da",
+                "size_in_bytes": 175104
+            },
+            {
+                "_path": "lib/pkgconfig/fmt.pc",
+                "path_type": "hardlink",
+                "sha256": "4bebf225f6207fbb78b8336511b3d4ef68c0c523392c666ced55fb6c20c3a075",
+                "sha256_in_prefix": "c9ad911ab93fca5e34b289a759c543660b8e7f4c6402556fee2065f1694fd86f",
+                "size_in_bytes": 703
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "linux",
+    "requested_spec": "conda-forge/linux-64::fmt==10.1.1=h00ab1b0_1[md5=50a08d74ca45785f3334b175da23fd82]",
+    "sha256": "43ea9342de9f784c86bb01af75c7592a199bf249dcd81292eedc01242e0f471d",
+    "size": 192331,
+    "subdir": "linux-64",
+    "timestamp": 1701193923191,
+    "url": "https://conda.anaconda.org/conda-forge/linux-64/fmt-10.1.1-h00ab1b0_1.conda",
+    "version": "10.1.1"
+}
